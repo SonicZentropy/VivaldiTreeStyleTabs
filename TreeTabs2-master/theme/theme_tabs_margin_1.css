@@ -1,0 +1,27 @@
+body {
+	/* TABS */
+	--margin_tab_top: 0px;
+	--margin_tab_bottom: 0px;
+	--margin_tab_left: 1px;
+	--margin_tab_right: 1px;
+	
+	/* drag_enter top, bottom */
+	--tab_drag_entered_top: -1px;
+	--tab_drag_entered_bottom: 0px;
+
+	/* PINS */
+	--pin_margin_left: 0px;
+	--pin_last_margin_right: 2px;
+	--pin_margin_bottom: 0px;
+	
+	/* drag_enter left, right */
+	--pin_drag_entered_top_left: 0px;
+	--pin_drag_entered_bottom_right: -1px;
+
+	/* PIN LIST */
+	--pin_list_padding_top: 1px;
+	--pin_list_padding_bottom: 1px;
+	--pin_list_padding_left: 1px;
+	
+	--group_tabs_top: 1px;
+}

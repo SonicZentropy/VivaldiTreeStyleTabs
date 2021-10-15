@@ -1,0 +1,910 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_size_preset_0.css" id="sizes_preset_0" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_size_preset_1.css" id="sizes_preset_1" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_size_preset_2.css" id="sizes_preset_2" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_size_preset_3.css" id="sizes_preset_3" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_size_preset_4.css" id="sizes_preset_4" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_size_preset_5.css" id="sizes_preset_5" />
+
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_tabs_margin_0.css" id="tabs_margin_0" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_tabs_margin_1.css" id="tabs_margin_1" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_tabs_margin_2.css" id="tabs_margin_2" />
+
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_colors.css" id="theme_colors" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme.css" id="theme" />
+
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_blinking_attention.css" id="blinking_pins" />
+        <link type="text/css" rel="stylesheet" media="all" href="../theme/theme_blinking_audio.css" id="blinking_audio" />
+        <link type="text/css" rel="stylesheet" media="all" href="./options.css" id="main_body_css" />
+
+        <style rel="stylesheet">
+            #red_higlights_go_here {
+                background-color: transparent;
+            }
+        </style>
+
+        <link type="text/css" rel="stylesheet" media="all" href="./options_overwrite.css" id="overwrite" />
+
+
+    </head>
+
+    <body id="body" class="options_body">
+
+        <div style="width:850px; align:left;"><span style="width:100%; font-size:20px; display:inline-block; text-align:center;">Tree Tabs 2</span></div>
+        <br>
+            <fieldset class="field" id="field_vivaldi" style="display:none;">
+                <legend class="label" id="options_vivaldi"></legend>
+                <table>
+                    <tr>
+                        <td class="label" id="opt_url_for_web_panel"></td>
+                        <td><input style="position:relative;width:450px;left:8px;" type="text" id="url_for_web_panel" value=""/></td>
+                        <td><div style="position:relative; width:20px; height: 20px; left:8px; background-size: 20px 20px; background-image: url(./options_copy_icon.png);" id="copy_vivaldi_url_for_web_panel" ></div></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+
+
+            <fieldset class="field" id="field_pins">
+                <legend class="label" id="options_pinned" ></legend>
+                <table style="display:inline-block;">
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="pin_list_multi_row"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_pin_list_multi_row"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="allow_pin_close"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="option_allow_pin_close"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="pin_attention_blinking"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="option_pin_attention_blinking"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+
+
+            <fieldset class="field" id="field_groups">
+                <legend class="label" id="options_groups"></legend>
+                <table style="display:vinline-block;">
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="groups_toolbar_default"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_groups_toolbar_default"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="show_counter_groups"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_show_counter_groups"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="syncro_tabbar_groups_tabs_order"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_syncro_tabbar_groups_tabs_order"></td>
+                    </tr>
+                    <tr id="firefox_option_hide_other_groups_tabs_firefox">
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="hide_other_groups_tabs_firefox"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_hide_other_groups_tabs_firefox"></td>
+                    </tr>
+                </table>
+                <ul>
+                    <li>
+                        <label class="label" id="options_midclick_group"></label>
+                        <select id="midclick_group">
+                            <option class="bg_opt_drop_down_menu" id="options_action_group_none"                                      value="nothing"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_group_new"                                       value="new_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_group_undo_close_tab"                            value="undo_close_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_group_activate_previous_active"                  value="activate_previous_active"></option>
+                        </select>
+                    </li>
+                    <li>
+                        <label class="label" id="options_dbclick_group"></label>
+                        <select id="dbclick_group">
+                            <option class="bg_opt_drop_down_menu" id="options_action_group_none"                                      value="nothing"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_group_new"                                       value="new_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_group_undo_close_tab"                            value="undo_close_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_group_activate_previous_active"                  value="activate_previous_active"></option>
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+
+
+
+            <fieldset class="field" id="field_folders">
+                <legend class="label" id="options_folders"></legend>
+                <ul>
+                    <li>
+                        <label class="label" id="options_midclick_folder"></label>
+                        <select id="midclick_folder">
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_none"                                     value="nothing"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_rename"                                   value="rename_folder"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_new_folder"                               value="new_folder"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_new_tab"                                  value="new_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_expand_collapse"                          value="expand_collapse"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_close"                                    value="close_folder"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_unload"                                   value="unload_folder"></option>
+                        </select>
+                    </li>
+                    <li>
+                        <label class="label" id="options_dbclick_folder"></label>
+                        <select id="dbclick_folder">
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_none"                                     value="nothing"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_rename"                                   value="rename_folder"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_new_folder"                               value="new_folder"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_new_tab"                                  value="new_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_expand_collapse"                          value="expand_collapse"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_close"                                    value="close_folder"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_folder_unload"                                   value="unload_folder"></option>
+                        </select>
+                    </li>
+                </ul>
+    <!--
+                <table style="display:vinline-block;">
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="max_tree_drag_drop_folders"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_max_tree_drag_drop_folders"></td>
+                    </tr>
+                </table>
+    -->
+            </fieldset>
+
+
+
+            <fieldset class="field" id="field_tabs">
+                <legend class="label" id="options_tabs"></legend>
+                <ul>
+                    <li>
+                        <label class="label" id="options_midclick_tab"></label>
+                        <select id="midclick_tab">
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_none"                                        value="nothing"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_new_sibling"                                 value="new_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_new_child"                                   value="new_child_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_expand_collapse"                             value="expand_collapse"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_close"                                       value="close_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_undo_close"                                  value="undo_close_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_reload"                                      value="reload_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_unload"                                      value="unload_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_activate_previous_active"                    value="activate_previous_active"></option>
+                        </select>
+                    </li>
+                    <li>
+                        <label class="label" id="options_dbclick_tab"></label>
+                        <select id="dbclick_tab">
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_none"                                        value="nothing"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_new_sibling"                                 value="new_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_new_child"                                   value="new_child_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_expand_collapse"                             value="expand_collapse"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_close"                                       value="close_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_undo_close"                                  value="undo_close_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_reload"                                      value="reload_tab"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_action_tab_activate_previous_active"                    value="activate_previous_active"></option>
+                        </select>
+                    </li>
+                </ul>
+                <table style="display:vinline-block;">
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="syncro_tabbar_tabs_order"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_syncro_tabbar_tabs_order"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="switch_with_scroll"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_switch_with_scroll"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="orphaned_tabs_to_ungrouped"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_orphaned_tabs_to_ungrouped"></td>
+                    </tr>
+                </table>
+
+                <p style="position: relative; top: -10px; left: 40px; font-size:11px; color: #c71414;" class="hint_explanation" id="hint_orphan_tab"></p>
+                <ul style="position: relative; top: -14px; left: 30px; list-style-type:disc; font-size:11px; color: #c71414;">
+                    <li class="hint_explanation" id="hint_ctrl_t"></li>
+                    <li class="hint_explanation" id="hint_from_pin"></li>
+                    <li class="hint_explanation" id="hint_from_bookmark"></li>
+                    <li class="hint_explanation" id="hint_from_external_link"></li>
+                    <li class="hint_explanation" id="hint_from_popup"></li>
+                    <li class="hint_explanation" id="hint_explained_new_tab_settings"></li>
+                </ul>
+                <ul>
+                    <li>
+                        <label class="label" id="options_append_pinned_tab"></label>
+                        <select id="append_pinned_tab">
+                            <option class="bg_opt_drop_down_menu" id="options_append_pinned_tab_first"                                value="first"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_pinned_tab_after"                                value="after"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_pinned_tab_last"                                 value="last"></option>
+                        </select>
+                    </li>
+                    <li>
+                        <label class="label" id="options_append_child_tab"></label>
+                        <select id="append_child_tab">
+                            <option class="bg_opt_drop_down_menu" id="options_append_child_tab_top"                                   value="top"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_child_tab_bottom"                                value="bottom"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_child_tab_after"                                 value="after"></option>
+                        </select>
+                    </li>
+                    <li id="append_child_tab_after_limit_dropdown">
+                        <label class="label" id="options_append_child_tab_after_limit"></label>
+                        <select id="append_child_tab_after_limit">
+                            <option class="bg_opt_drop_down_menu" id="options_append_child_tab_after_limit_top"                       value="top"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_child_tab_after_limit_after"                     value="after"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_child_tab_after_limit_bottom"                    value="bottom"></option>
+                        </select>
+                    </li>
+                    <li>
+                        <label class="label" id="options_append_orphan_tab"></label>
+                        <select id="append_orphan_tab">
+                            <option class="bg_opt_drop_down_menu" id="options_append_orphan_tab_top"                                  value="top"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_orphan_tab_bottom"                               value="bottom"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_orphan_tab_after_active"                         value="after_active"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_orphan_tab_active_parent_top"                    value="active_parent_top"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_orphan_tab_active_parent_bottom"                 value="active_parent_bottom"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_append_orphan_tab_as_child"                             value="as_child"></option>
+                        </select>
+                    </li>
+
+
+
+
+
+
+
+                    <li>
+                        <label class="label" id="options_toolbar_new_tab"></label>
+                        <select id="append_tab_from_toolbar">
+                            <option class="bg_opt_drop_down_menu" id="options_toolbar_new_tab_as_regular_orphan"                      value="as_regular_orphan"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_toolbar_new_tab_as_regular_child"                       value="as_regular_child"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_toolbar_new_tab_root_of_group"                          value="group_root"></option>
+                        </select>
+                    </li>
+                    <li>
+                        <label class="label" id="options_after_closing_active_tab"></label>
+                        <select id="after_closing_active_tab">
+                            <option class="bg_opt_drop_down_menu" id="options_after_closing_active_tab_go_up"                         value="above"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_after_closing_active_tab_go_down"                       value="below"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_after_closing_active_tab_go_up_seek_in_parent"          value="above_seek_in_parent"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_after_closing_active_tab_go_down_seek_in_parent"        value="below_seek_in_parent"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_after_closing_active_tab_go_browser"                    value="browser"></option>
+                        </select>
+                    </li>
+                    <li>
+                        <label class="label" id="options_tab_group_regex"></label><br>
+                        <br><span class="regexLabel">
+                            <label class="label" id="option_tab_match"></label>
+                        </span>
+                        <span class="regexLabel">
+                            <label class="label" id="option_tab_group" style="width:200px"></label>
+                        </span>
+                        <div id="tab_group_regexes"></div>
+                        <button class="set_button" type="button" id="add_tab_group_regex" style="margin:6px;"></button>
+                    </li>
+                    <li>
+                        <label class="label" id="options_move_on_url_change"></label>
+                        <select id="move_tabs_on_url_change">
+                            <option class="bg_opt_drop_down_menu" id="options_move_on_url_change_never"                               value="never"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_move_on_url_change_from_empty"                          value="from_empty"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_move_on_url_change_from_empty_b"                        value="from_empty_b"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_move_on_url_change_all_new"                             value="all_new"></option>
+                            <option class="bg_opt_drop_down_menu" id="options_move_on_url_change_always"                              value="always"></option>
+                        </select>
+                    </li>
+                </ul>
+                <table style="display:vinline-block;">
+                    <tr>
+                        <td>
+                            <input type="number" style="width:80px;" min="-1" max="9999" step="1" id="max_tree_depth"/>
+                        </td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_max_tree_depth"></td>
+                    </tr>
+                </table>
+                <table style="display:vinline-block;">
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="max_tree_drag_drop"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_max_tree_drag_drop"></td>
+                    </tr>
+                </table>
+
+
+
+
+            </fieldset>
+
+
+
+
+
+            <fieldset class="field" id="field_global">
+                <legend class="label" id="options_global"></legend>
+                <table style="display:vinline-block;">
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="audio_blinking"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="option_audio_blinking"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="always_show_close"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_always_show_close"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="never_show_close"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_never_show_close"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="collapse_other_trees"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_collapse_other_trees"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="open_tree_on_hover"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_open_tree_on_hover"></td>
+                    </tr>
+                    <tr>
+                        <td style="position:relative;top:-5px;"><input type="checkbox" class="opt_checkbox bg_opt" id="promote_children"/></td>
+                        <td style="position:relative;top:-5px;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_promote_children"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="promote_children_in_first_child"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_promote_children_in_first_child"></td>
+                    </tr>
+                    <tr>
+                        <td style="position:relative;top:-1px;"><input type="checkbox" class="opt_checkbox bg_opt" id="skip_load"/></td>
+                        <td style="position:relative;top:-1px;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_skip_load"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="show_counter_tabs"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_show_counter_tabs"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="opt_checkbox bg_opt" id="show_counter_tabs_hints"/></td>
+                        <td style="position:relative;left:2px;width:3px;">-</td>
+                        <td class="label" id="options_show_counter_tabs_hints"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+
+            <fieldset class="field" id="field_show_toolbar" style="position: relative; width:850px;">
+                <legend id="toolbar_legend">
+                    <input type="checkbox" class="opt_checkbox bg_opt" style="position:relative; top:-1px;" id="show_toolbar"/>
+                    <label class="label" style="position:relative; top:-3px;" id="options_toolbar"></label>
+                </legend>
+
+                <label class="label" style="margin-top: 4px;" id="options_available_buttons"></label>
+
+                <div id="sample_toolbar_block" style="position:relative; margin: 10px; width: 355px;">
+                    <div id="toolbar_unused_buttons" style="position: relative; background-color: #b8ffbf; height: 30px; width: 788px;"></div>
+
+                    <div class="toolbar_edit" id="toolbar" style="position: relative; top: 5px; height: 26px; width: 788px; overflow:hidden;"></div>
+                </div>
+
+                <button class="set_button" type="button" id="options_reset_toolbar_button" style="margin:10px; margin-top:20px;">Reset</button>
+
+            </fieldset>
+
+
+
+            <fieldset class="field" id="field_theme" style="width:850px;">
+                <legend class="label" id="options_theme"></legend>
+
+                <select id="theme_list" style="padding-right:6px;"></select>
+                <input type="text" id="new_theme_name" name="untitled" value="untitled"/>
+                <button class="set_button theme_buttons" type="button" id="options_rename_theme_button" style="margin:6px;">Rename</button>
+                <button class="set_button theme_buttons" type="button" id="options_add_theme_button"    style="margin:6px;">Add new</button>
+                <button class="set_button theme_buttons" type="button" id="options_remove_theme_button" style="margin:6px;">Remove</button>
+                <button class="set_button theme_buttons" type="button" id="options_import_theme_button" style="margin:6px;">Import</button>
+                <button class="set_button theme_buttons" type="button" id="options_export_theme_button" style="margin:6px;">Export</button>
+                <button class="set_button theme_buttons" type="button" id="options_share_theme_link"    style="margin:6px;">Export</button>
+                <br>
+                <br>
+
+                <fieldset class="field" id="options_toolbar_look" style="position: relative; width:816px;">
+                    <legend id="toolbar_legend">
+                        <label class="label" id="options_toolbar_look"></label>
+                    </legend>
+                    <div id="sample_toolbar_block" style="position:relative; width: 788px; margin: 10px;">
+                        <div id="toolbar_colors_pick_block" style="position: relative; width: 788px; height: 26px;">
+
+                            <div class="pick_col color_bucket"        id="button_background"        ></div>
+                            <div class="pick_col color_bucket"        id="button_hover_background"  ></div>
+                            <div class="pick_col color_bucket"        id="button_on_background"     ></div>
+                            <div class="spacer"></div>
+                            <div class="pick_col color_toolbar_icon"  id="button_icons"             ></div>
+                            <div class="pick_col color_toolbar_icon"  id="button_icons_hover"       ></div>
+                            <div class="pick_col color_toolbar_icon"  id="button_on_icons"          ></div>
+                            <div class="spacer"></div>
+                            <div class="pick_col color_border"        id="button_border"            ></div>
+                            <div class="pick_col color_border"        id="button_hover_border"      ></div>
+                            <div class="spacer"></div>
+                            <div class="spacer"></div>
+                            <div class="pick_col font_color"          id="filter_box_font"          ></div>
+                            <div class="pick_col color_bucket"        id="filter_box_background"    ></div>
+                            <div class="pick_col color_border"        id="filter_box_border"        ></div>
+                            <div class="pick_col color_x"             id="filter_clear_icon"        ></div>
+                            <div class="spacer"></div>
+                            <div class="spacer"></div>
+                            <div class="spacer"></div>
+                            <div class="pick_col color_bucket"        id="toolbar_background"       ></div>
+                            <div class="pick_col color_bucket"        id="toolbar_shelf_background" ></div>
+                            <div class="pick_col color_border"        id="toolbar_border_bottom"    ></div>
+                            <div class="spacer"></div>
+                            <div class="spacer"></div>
+                            <div class="spacer"></div>
+                            <div class="pick_col color_bucket"        id="button_shelf_background"  ></div>
+                            <div class="pick_col color_bucket"        id="button_shelf_hover_background"  ></div>
+                            <div class="spacer"></div>
+                            <div class="pick_col color_toolbar_icon"  id="button_shelf_icons"        ></div>
+                            <div class="pick_col color_toolbar_icon"  id="button_shelf_icons_hover"  ></div>
+                            <div class="spacer"></div>
+                            <div class="pick_col color_border"        id="button_shelf_border"       ></div>
+                            <div class="pick_col color_border"        id="button_shelf_hover_border" ></div>
+                        </div>
+                        <div class="toolbar" id="toolbar_theme" style="position: relative; top: 5px; height: 53px; width: 788px; overflow:hidden;">
+                            <div id="toolbar_main_theme">
+                                <div class="button_theme" id="button_theme_plus"><div class="button_img_theme" id="button_theme_plus_img"></div></div>
+                                <div class="button_theme" id="button_theme_search"><div class="button_img_theme" id="button_theme_search_img"></div></div>
+                            </div>
+                            <div id="toolbar_search_input_box_theme">
+                                <input id="filter_box_theme" type="text" placeholder="Search tabs..."/>
+                                <div id="button_filter_clear_theme" style="position:absolute;" type="reset"></div>
+                                <div class="button_shelf_theme" id="button_theme_pen"><div class="button_img_shelf_theme" id="button_theme_pen_img"></div></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </fieldset>
+
+
+
+
+                <fieldset class="field" id="Tabs" style="position: relative; top: 6px; width:816px; height: 1050px;">
+                    <legend class="label" id="options_theme_tabs"></legend>
+
+                    <div id="tabs_options_block">
+                        <div id="ff_folder1" class="tab_color_options_row">
+                            <div class="pick_col color_bucket" id="folder_icon_open"></div>
+                        </div>
+                        <div id="ff_folder2" class="tab_color_options_row">
+                            <div class="pick_col color_bucket" id="folder_icon_closed"></div>
+                        </div>
+                        <div id="ff_folder3" class="tab_color_options_row">
+                            <div class="pick_col color_bucket" id="folder_icon_hover"></div>
+                        </div>
+                        <div id="t2" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_border"></div>
+                        </div>
+                        <div id="t11" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_hover_border"></div>
+                            <div class="pick_col color_x"                 id="close_x"></div>
+                        </div>
+                        <div id="t12" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_selected_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_selected_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_selected_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_selected_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_selected_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_selected_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_selected_border"></div>
+                        </div>
+                        <div id="t13" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_selected_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_selected_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_selected_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_selected_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_selected_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_selected_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_selected_hover_border"></div>
+                            <div class="pick_col color_x"                 id="close_hover_x"></div>
+                            <div class="pick_col color_border"            id="close_hover_border"></div>
+                            <div class="pick_col color_bucket"            id="close_hover_background"></div>
+                        </div>
+                        <div id="t3" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_active_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_active_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_active_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_active_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_active_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_active_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_active_border"></div>
+                        </div>
+                        <div id="t15" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_active_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_active_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_active_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_active_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_active_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_active_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_active_hover_border"></div>
+                        </div>
+                        <div id="t14" class="tab_color_options_row">
+                            <div class="pick_col color_bucket"            id="expand_closed_background"></div>
+                            <div class="tab_col pick_col font_color"      id="tab_active_selected_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_active_selected_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_active_selected_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_active_selected_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_active_selected_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_active_selected_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_active_selected_border"></div>
+                        </div>
+                        <div id="t16" class="tab_color_options_row">
+                            <div class="pick_col color_bucket"            id="expand_hover_background"></div>
+                            <div class="tab_col pick_col font_color"      id="tab_selected_active_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_selected_active_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_selected_active_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_selected_active_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_selected_active_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_selected_active_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_selected_active_hover_border"></div>
+                        </div>
+                        <div id="t5" class="tab_color_options_row">
+                            <div class="pick_col color_bucket"            id="expand_open_background"></div>
+                            <div class="tab_col pick_col font_color"      id="tab_discarded_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_discarded_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_discarded_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_discarded_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_discarded_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_discarded_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_discarded_border"></div>
+                        </div>
+                        <div id="t17" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_discarded_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_discarded_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_discarded_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_discarded_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_discarded_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_discarded_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_discarded_hover_border"></div>
+                        </div>
+                        <div id="t19" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_selected_discarded_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_selected_discarded_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_selected_discarded_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_selected_discarded_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_selected_discarded_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_selected_discarded_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_selected_discarded_border"></div>
+                            <div class="pick_col color_bucket"            id="drag_indicator"></div>
+                        </div>
+                        <div id="t20" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_selected_discarded_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_selected_discarded_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_selected_discarded_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_selected_discarded_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_selected_discarded_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_selected_discarded_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_selected_discarded_hover_border"></div>
+                        </div>
+                        <div id="t6" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_border"></div>
+                        </div>
+                        <div id="t21" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_hover_border"></div>
+                        </div>
+                        <div id="t22" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_active_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_active_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_active_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_active_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_active_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_active_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_active_border"></div>
+                        </div>
+                        <div id="t23" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_active_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_active_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_active_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_active_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_active_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_active_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_active_hover_border"></div>
+                        </div>
+                        <div id="t8" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_selected_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_selected_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_selected_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_selected_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_selected_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_selected_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_selected_border"></div>
+                        </div>
+                        <div id="t18" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_selected_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_selected_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_selected_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_selected_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_selected_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_selected_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_selected_hover_border"></div>
+                        </div>
+                        <div id="t25" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_selected_active_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_selected_active_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_selected_active_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_selected_active_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_selected_active_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_selected_active_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_selected_active_border"></div>
+                        </div>
+                        <div id="t26" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_selected_active_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_selected_active_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_selected_active_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_selected_active_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_selected_active_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_selected_active_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_selected_active_hover_border"></div>
+                        </div>
+                        <div id="t30" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_highlighted_search_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_highlighted_search_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_highlighted_search_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_highlighted_search_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_highlighted_search_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_highlighted_search_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_highlighted_search_border"></div>
+                        </div>
+                        <div id="t31" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_highlighted_search_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_highlighted_search_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_highlighted_search_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_highlighted_search_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_highlighted_search_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_highlighted_search_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_highlighted_search_hover_border"></div>
+                        </div>
+                        <div id="t32" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_active_highlighted_search_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_active_highlighted_search_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_active_highlighted_search_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_active_highlighted_search_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_active_highlighted_search_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_active_highlighted_search_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_active_highlighted_search_border"></div>
+                        </div>
+                        <div id="t33" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_active_highlighted_search_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_active_highlighted_search_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_active_highlighted_search_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_active_highlighted_search_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_active_highlighted_search_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_active_highlighted_search_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_active_highlighted_search_hover_border"></div>
+                        </div>
+                        <div id="t34" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_selected_highlighted_search_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_selected_highlighted_search_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_selected_highlighted_search_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_selected_highlighted_search_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_selected_highlighted_search_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_selected_highlighted_search_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_selected_highlighted_search_border"></div>
+                        </div>
+                        <div id="t35" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_selected_highlighted_search_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_selected_highlighted_search_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_selected_highlighted_search_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_selected_highlighted_search_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_selected_highlighted_search_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_selected_highlighted_search_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_selected_highlighted_search_hover_border"></div>
+                        </div>
+                        <div id="t36" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_selected_active_highlighted_search_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_selected_active_highlighted_search_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_selected_active_highlighted_search_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_selected_active_highlighted_search_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_selected_active_highlighted_search_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_selected_active_highlighted_search_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_selected_active_highlighted_search_border"></div>
+                        </div>
+                        <div id="t37" class="tab_color_options_row">
+                            <div class="tab_col pick_col font_color"      id="tab_filtered_selected_active_highlighted_search_hover_title_font_color"></div>
+                            <div class="tab_col font_weight_normal"       id="tab_filtered_selected_active_highlighted_search_hover_title_font_weight"></div>
+                            <div class="tab_col font_weight_bold"         id="tab_filtered_selected_active_highlighted_search_hover_title_font_weight"></div>
+                            <div class="tab_col font_style_normal"        id="tab_filtered_selected_active_highlighted_search_hover_title_font_style"></div>
+                            <div class="tab_col font_style_italic"        id="tab_filtered_selected_active_highlighted_search_hover_title_font_style"></div>
+                            <div class="tab_col pick_col color_bucket"    id="tab_filtered_selected_active_highlighted_search_hover_background"></div>
+                            <div class="tab_col pick_col color_border"    id="tab_filtered_selected_active_highlighted_search_hover_border"></div>
+                        </div>
+                    </div>
+
+
+                    <div id="scrollbar_size_indicator">
+                        <div class="options_button_minus" id="options_tab_list_scrollbar_width_down"></div>
+                        <div class="options_button_plus" id="options_tab_list_scrollbar_width_up"></div>
+
+                        <div class="options_button_minus" id="options_tab_list_scrollbar_height_down"></div>
+                        <div class="options_button_plus" id="options_tab_list_scrollbar_height_up"></div>
+                    </div>
+
+                    <div class="pick_col color_bucket" id="scrollbar_thumb"></div>
+                    <div class="pick_col color_bucket pick_col_hover" id="scrollbar_thumb_hover"></div>
+                    <div class="pick_col color_bucket" id="scrollbar_track"></div>
+
+                    <div class="pin_list" id="pin_list"></div>
+                    <div id="groups">
+                        <div class="group" id="tab_list">
+                            <div class="children" id="°tab_list"></div>
+                        </div>
+                    </div>
+                    <div id="pin_list_scrollbar"><div id="pin_list_scrollbar_thumb"></div></div>
+                    <div id="group_scrollbar"><div id="group_scrollbar_thumb"></div></div>
+
+                    <div class="pick_col color_bucket" id="group_list_background"></div>
+                    <div class="pick_col color_border" id="group_list_borders"></div>
+
+                    <div class="pick_col color_bucket pick_col_hover" id="group_list_button_hover_background"></div>
+
+                    <div class="pick_col font_color" id="group_list_default_font_color"></div>
+
+                    <div id="toolbar_groups_block">
+                        <div class="scroll_group" id="scroll_group_up"></div>
+                        <div class="group_list" id="group_list"></div>
+                        <div class="scroll_group" id="scroll_group_down"></div>
+                    </div>
+
+                    <div id="options_tabs_margins_indicator">
+                        <form action="" id="tabs_margin_spacing" style="position:absolute; left:4px; top:12px;">
+                          <input type="radio" class="tabs_margin_spacing" id="options_tabs_margin_overlap" name="tabs_margin_spacing" value="overlap"/>
+                          <input type="radio" class="tabs_margin_spacing" id="options_tabs_margin_0" name="tabs_margin_spacing"       value="no_space"/>
+                          <input type="radio" class="tabs_margin_spacing" id="options_tabs_margin_1" name="tabs_margin_spacing"       value="1px_space"/>
+                        </form>
+                    </div>
+
+                    <div id="options_tabs_indentation_indicator">
+                        <div class="options_button_minus" id="options_tabs_indentation_down"></div>
+                        <div class="options_button_plus" id="options_tabs_indentation_up"></div>
+                    </div>
+                    <div id="options_tabs_roundness_indicator">
+                        <div class="options_button_minus" id="options_tabs_roundness_down"></div>
+                        <div class="options_button_plus" id="options_tabs_roundness_up"></div>
+                    </div>
+                    <div id="options_tabs_size_indicator">
+                        <div class="options_button_minus" id="options_tabs_size_down"></div>
+                        <div class="options_button_plus" id="options_tabs_size_up"></div>
+                    </div>
+
+                    <div id="pin_list_options_block">
+                        <div class="pick_col color_bucket" id="attention_background"></div>
+                        <div class="pick_col color_border" id="attention_border"></div>
+                        <div class="pick_col color_border" id="pin_list_border_bottom"></div>
+                        <div class="pick_col color_bucket" id="pin_list_background"></div>
+                    </div>
+
+
+
+                    <div class="pick_col color_bucket" id="tab_list_background"></div>
+
+                </fieldset>
+
+
+                <fieldset class="field" style="width:816px;">
+                    <legend class="label" id="options_menu"></legend>
+
+                    <div id="menu_options_block" style="position:relative; top:0px; left:10px;">
+                        <div class="pick_col color_border"                id="tabs_menu_border"></div>
+                        <div class="pick_col color_bucket"                id="tabs_menu_background"></div>
+
+                        <div class="pick_col font_color"                  id="tabs_menu_font"></div>
+
+                        <div class="pick_col color_border"                id="tabs_menu_hover_border"></div>
+                        <div class="pick_col color_bucket"                id="tabs_menu_hover_background"></div>
+                        <div class="pick_col color_border"                id="tabs_menu_separator"></div>
+                    </div>
+
+                    <ul class="menu" id="tabs_menu" style="display:inline-block;position:relative;top:0px;left:10px;">
+                        <li class="menu_item"                             id="menu_hover_sample"></li>
+                        <div class="separator"                            id="menu_separator1"></div>
+                        <li class="menu_item"                             id="menu_sample1"></li>
+                        <div class="separator"                            id="menu_separator2"></div>
+                        <li class="menu_item"                             id="menu_sample2"></li>
+                    </ul>
+
+                </fieldset>
+            </fieldset>
+
+
+            <fieldset class="field">
+            <legend class="label" id="options_development"></legend>
+            <table style="display:inline-block;">
+                <tr>
+                    <td><input type="checkbox" class="opt_checkbox bg_opt" id="debug"/>
+                    </td>
+                    <td style="position:relative;left:2px;width:3px;">-</td>
+                    <td class="label" id="options_debug"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="opt_checkbox bg_opt" id="debug_tab_title_and_favicon"/>
+                    </td>
+                    <td style="position:relative;left:2px;width:3px;">-</td>
+                    <td class="label" id="options_debug_favicon"></td>
+                </tr>
+            </table>
+            <br>
+            <button class="set_button" type="button" id="options_export_debug" style="position: relative; margin:10px;"></button>
+            <button class="set_button" type="button" id="options_clear_debug"  style="position: relative; margin:10px;"></button>
+            <br>
+            <a href="../translator/translator.html">Your language is not available? Can you help? Translate here.</a>
+            <br>
+            <a href="https://thomasmca.com/doku.php?id=blog:treetabs2#themes">Themes</a>
+            <br>
+            <a href="https://thomasmca.com/doku.php?id=blog:treetabs2#discussion">Discussion</a>
+            <br>
+            <div>Support Email: tom 	&#60;at	&#62; thomasmca 	&#60;dot	&#62; com</div>
+            <br>
+            <a href="https://gitlab.com/ThomasMcA/TreeTabs/issues">Report a bug</a>
+       </fieldset>
+
+        <button class="set_button" type="button" id="options_clear_data" style="margin:10px;"></button>
+
+        <input type="color" id="color_picker" style="position:absolute; left:-1000px; top:-1000px; width:1px; height:1px; overflow:hidden;">
+        <div id="DragImage" style="display: none; width:0px; height:0px;"></div>
+
+        <script type="text/javascript" src="../global.js"></script>
+        <script type="text/javascript" src="../scripts/utils.js"></script>
+        <script type="text/javascript" src="../scripts/dom.js"></script>
+        <script type="text/javascript" src="../scripts/tabs.js"></script>
+        <script type="text/javascript" src="../scripts/folders.js"></script>
+        <script type="text/javascript" src="../scripts/groups.js"></script>
+        <script type="text/javascript" src="../scripts/menu.js"></script>
+        <script type="text/javascript" src="../scripts/manager.js"></script>
+        <script type="text/javascript" src="../scripts/toolbar.js"></script>
+        <script type="text/javascript" src="../scripts/theme.js"></script>
+        <script type="text/javascript" src="../scripts/file.js"></script>
+        <script type="text/javascript" src="../scripts/preferences.js"></script>
+        <script type="text/javascript" src="../scripts/bookmark.js"></script>
+        <script type="text/javascript" src="./options.js"></script>
+
+
+        <div id="donate"></div>
+        <div id="donate_paypal" class="donation_button"></div>
+
+    </body>
+
+</html>

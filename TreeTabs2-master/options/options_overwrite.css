@@ -1,0 +1,224 @@
+
+
+/* OVERWRITE TOOLBAR COLORS */
+
+#toolbar {
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #cccccc;
+}
+#toolbar_main {
+	border-bottom: 1px solid #cccccc;
+	background-color: #f2f2f2;
+}
+.toolbar_shelf {
+	border-bottom: 1px solid #cccccc;
+	background-color: #f2f2f2;
+}
+
+.toolbar_shelf .button_img,
+.button.on .button_img,
+.button_img {
+	background-color: #808080;
+}
+
+.toolbar_shelf .button:not(.on),
+.button:not(.on) {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+}
+
+.button:hover:not(.on) {
+	background-color: #dcdcdc;
+	border: 1px solid #dcdcdc;
+}
+
+.toolbar_shelf .button:hover>.button_img,
+.button:hover:not(.on)>.button_img {
+	background-color: #808080;
+}
+
+.button.on {
+	background-color: #f2f2f2;
+	border: 1px solid #cccccc;
+}
+
+/* MAIN TOOLBAR SEARCHBOX */
+#filter_box {
+	background-color: #fafafa;
+	border: solid 1px #cccccc;
+	color: #808080;
+}
+#button_filter_clear {
+	background-color: #808080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu_hover_sample {
+	border: 1px solid var(--tabs_menu_hover_border);
+	background-color: var(--tabs_menu_hover_background);
+}
+
+
+
+
+/* TOOLBAR THEME COLOR EDIT */
+
+/* toolbar main */
+#toolbar_theme {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: var(--toolbar_background);
+	border-bottom: 1px solid var(--toolbar_border_bottom);
+}
+
+#toolbar_main_theme {
+	position: relative;
+	width: 100%;
+	height: 26px;
+	top: 0px;
+	background-color: var(--toolbar_background);
+	border-bottom: 1px solid var(--toolbar_border_bottom);
+}
+
+/* toolbar shelf */
+#toolbar_search_input_box_theme {
+	position: relative;
+	width: 100%;
+	top: 0px;
+	height: 26px;
+	background-color: var(--toolbar_shelf_background);
+	overflow: hidden;
+}
+
+
+
+/* toolbar buttons */
+
+
+#button_theme_plus {
+	background-color: var(--button_background);
+	border: 1px solid var(--button_border);
+}
+#button_theme_plus_img {
+	background-color: var(--button_icons);
+	-webkit-mask-image: url(../theme/toolbar_plus_big.svg);
+	mask-image: url(../theme/toolbar_plus_big.svg);
+}
+#button_theme_plus:hover {
+	border: 1px solid var(--button_hover_border);
+	background-color: var(--button_hover_background);
+}
+#button_theme_plus:hover>#button_theme_plus_img {
+	background-color: var(--button_icons_hover);
+}
+
+
+#button_theme_search_img {
+	background-color: var(--button_on_icons);
+	-webkit-mask-image: url(../theme/toolbar_search.svg);
+	mask-image: url(../theme/toolbar_search.svg);
+	border: 1px solid var(--button_border);
+}
+
+
+#button_theme_pen {
+	background-color: var(--button_shelf_background);
+	border: 1px solid var(--button_shelf_border);
+}
+#button_theme_pen_img {
+	background-color: var(--button_shelf_icons);
+	-webkit-mask-image: url(../theme/toolbar_edit.svg);
+	mask-image: url(../theme/toolbar_edit.svg);
+}
+
+#button_theme_pen:hover {
+	border: 1px solid var(--button_shelf_hover_border);
+	background-color: var(--button_shelf_hover_background);
+}
+#button_theme_pen:hover>#button_theme_pen_img {
+	border: 1px solid var(--button_shelf_hover_border);
+	background-color: var(--button_shelf_icons_hover);
+}
+
+
+/* searchbox */
+#filter_box_theme {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	left: 2px;
+	top: 2px;
+	padding-left: 6px;
+	width: calc(100% - 42px);
+	height: 18px;
+	background-color: var(--filter_box_background);
+	border: solid 1px var(--filter_box_border);
+	color: var(--filter_box_font);
+}
+
+#filter_box_theme:focus {
+	outline: none;
+}
+
+#button_filter_clear_theme {
+	display: inline-block;
+	vertical-align: top;
+	-webkit-mask-image: url(../theme/toolbar_filter_clear.svg);
+	mask-image: url(../theme/toolbar_filter_clear.svg);
+	top: 5.5px;
+	right: 34px;
+	width: 16px;
+	height: 16px;
+	background-color: var(--filter_clear_icon);
+}
+
+#button_theme_plus,
+#button_theme_search,
+#button_theme_pen {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 24px;
+	height: 24px;
+}
+
+
+#button_theme_plus_img,
+#button_theme_search_img,
+#button_theme_pen_img {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 24px;
+	height: 24px;
+	-webkit-mask-size: 24px 24px;
+	mask-size: 24px 24px;
+}
+
+#button_theme_search {
+	height: 26px;
+	left: -3px;
+	background-color: var(--button_on_background);
+	border: 1px solid var(--toolbar_border_bottom);
+}

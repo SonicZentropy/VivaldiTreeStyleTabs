@@ -1,0 +1,299 @@
+body {
+	/* SCROLLBARS */
+	--scrollbar_thumb: #cdcdcd;
+	--scrollbar_thumb_hover: #a6a6a6;
+	--scrollbar_track: #e4e4e4;
+	
+
+	/* MAIN TOOLBAR */
+	--toolbar_background: #f2f2f2;
+	--toolbar_border_bottom: #cccccc;
+
+	/* MAIN TOOLBAR "ON" BUTTONS COLORS */
+	--button_on_background: #f2f2f2;
+	--button_on_icons: #808080;
+
+	/* SHELF TOOLBAR */
+	--toolbar_shelf_background: #f2f2f2;
+
+	/* SHELF TOOLBAR BUTTONS COLORS */
+	--button_shelf_background: #f2f2f2;
+	--button_shelf_border: #f2f2f2;
+	--button_shelf_hover_background: #dcdcdc;
+	--button_shelf_hover_border: #dcdcdc;
+	--button_shelf_icons: #808080;
+	--button_shelf_icons_hover: #808080;
+
+
+	/* MAIN TOOLBAR BUTTONS COLORS */
+	--button_background: #f2f2f2;
+	--button_border: #f2f2f2;
+	--button_hover_background: #dcdcdc;
+	--button_hover_border: #dcdcdc;
+	--button_icons: #808080;
+	--button_icons_hover: #808080;
+
+	/* SEARCH BOX */
+	--filter_box_background: #fafafa;
+	--filter_box_border: #cccccc;
+	--filter_box_font: #808080;
+	--filter_clear_icon: #808080;
+
+	/* GROUPS SHELF TOOLBAR */
+	--group_list_background: #fafafa;
+	--group_list_borders: #bebebe;
+	--group_list_default_font_color: #808080;
+	--group_list_button_hover_background: #dcdcdc;
+
+	/* TODO GROUP EDIT DIALOG */
+
+
+	/* LISTS */
+	--pin_list_background: #fafafa;
+	--pin_list_border_bottom: #cccccc;
+	--tab_list_background: #fafafa;
+
+	/* TABS */
+	--tab_header_border_radius: 0px;
+	--drag_indicator: #339bf3;
+	
+	/* normal */
+	--tab_border: #bebebe;
+	--tab_background: #f1f1f1;
+	--tab_title_font_color: #000000;
+	--tab_title_font_style: normal;
+	--tab_title_font_weight: normal;
+	
+	/* normal hover */
+	--tab_hover_border: #878787;
+	--tab_hover_background: #d7d7d7;
+	--tab_hover_title_font_color: #000000;
+	--tab_hover_title_font_style: normal;
+	--tab_hover_title_font_weight: normal;
+
+	/* normal selected */
+	--tab_selected_border: #70c0e7;
+	--tab_selected_background: #e5f3fb;
+	--tab_selected_title_font_color: #000000;
+	--tab_selected_title_font_style: italic;
+	--tab_selected_title_font_weight: normal;
+	
+	/* normal selected hover */
+	--tab_selected_hover_border: #78aee5;
+	--tab_selected_hover_background: #d0e2f0;
+	--tab_selected_hover_title_font_color: #000000;
+	--tab_selected_hover_title_font_style: italic;
+	--tab_selected_hover_title_font_weight: normal;
+
+	/* normal active */
+	--tab_active_border: #70c0e7;
+	--tab_active_background: #e5f3fb;
+	--tab_active_title_font_color: #000000;
+	--tab_active_title_font_style: normal;
+	--tab_active_title_font_weight: bold;
+	
+	/* normal active hover */
+	--tab_active_hover_border: #78aee5;
+	--tab_active_hover_background: #d0e2f0;
+	--tab_active_hover_title_font_color: #000000;
+	--tab_active_hover_title_font_style: normal;
+	--tab_active_hover_title_font_weight: bold;
+	
+	/* normal selected active */
+	--tab_active_selected_border: #70c0e7;
+	--tab_active_selected_background: #e5f3fb;
+	--tab_active_selected_title_font_color: #000000;
+	--tab_active_selected_title_font_style: italic;
+	--tab_active_selected_title_font_weight: bold;
+	
+	/* normal selected active hover */
+	--tab_selected_active_hover_border: #78aee5;
+	--tab_selected_active_hover_background: #d0e2f0;
+	--tab_selected_active_hover_title_font_color: #000000;
+	--tab_selected_active_hover_title_font_style: italic;
+	--tab_selected_active_hover_title_font_weight: bold;
+
+	/* unloaded */
+	--tab_discarded_border: #bebebe;
+	--tab_discarded_background: #f1f1f1;
+	--tab_discarded_title_font_color: #7e7e7e;
+	--tab_discarded_title_font_style: normal;
+	--tab_discarded_title_font_weight: normal;
+
+	/* unloaded hover */
+	--tab_discarded_hover_border: #878787;
+	--tab_discarded_hover_background: #d7d7d7;
+	--tab_discarded_hover_title_font_color: #7e7e7e;
+	--tab_discarded_hover_title_font_style: normal;
+	--tab_discarded_hover_title_font_weight: normal;
+
+	/* unloaded selected */
+	--tab_selected_discarded_border: #70c0e7;
+	--tab_selected_discarded_background: #e5f3fb;
+	--tab_selected_discarded_title_font_color: #7e7e7e;
+	--tab_selected_discarded_title_font_style: italic;
+	--tab_selected_discarded_title_font_weight: normal;
+	
+	/* unloaded selected hover */
+	--tab_selected_discarded_hover_border: #78aee5;
+	--tab_selected_discarded_hover_background: #d0e2f0;
+	--tab_selected_discarded_hover_title_font_color: #7e7e7e;
+	--tab_selected_discarded_hover_title_font_style: italic;
+	--tab_selected_discarded_hover_title_font_weight: normal;
+	
+	/* search result */
+	--tab_filtered_border: #a6a000;
+	--tab_filtered_background: #e8e000;
+	--tab_filtered_title_font_color: #000000;
+	--tab_filtered_title_font_style: normal;
+	--tab_filtered_title_font_weight: normal;
+
+	/* search result hover */
+	--tab_filtered_hover_border: #7f7b00;
+	--tab_filtered_hover_background: #d2cb00;
+	--tab_filtered_hover_title_font_color: #000000;
+	--tab_filtered_hover_title_font_style: normal;
+	--tab_filtered_hover_title_font_weight: normal;
+
+	/* search result active */
+	--tab_filtered_active_border: #a6a000;
+	--tab_filtered_active_background: #e8e000;
+	--tab_filtered_active_title_font_color: #000000;
+	--tab_filtered_active_title_font_style: normal;
+	--tab_filtered_active_title_font_weight: bold;
+	
+	/* search result active hover */
+	--tab_filtered_active_hover_border: #7f7b00;
+	--tab_filtered_active_hover_background: #d2cb00;
+	--tab_filtered_active_hover_title_font_color: #000000;
+	--tab_filtered_active_hover_title_font_style: normal;
+	--tab_filtered_active_hover_title_font_weight: bold;
+
+	/* search result selected */
+	--tab_filtered_selected_border: #0b5b56;
+	--tab_filtered_selected_background: #0f8079;
+	--tab_filtered_selected_title_font_color: #000000;
+	--tab_filtered_selected_title_font_style: italic;
+	--tab_filtered_selected_title_font_weight: normal;
+
+	/* search result selected hover */
+	--tab_filtered_selected_hover_border: #094c48;
+	--tab_filtered_selected_hover_background: #0d6d67;
+	--tab_filtered_selected_hover_title_font_color: #000000;
+	--tab_filtered_selected_hover_title_font_style: italic;
+	--tab_filtered_selected_hover_title_font_weight: normal;
+
+	/* search result active selected */
+	--tab_filtered_selected_active_border: #0b5b56;
+	--tab_filtered_selected_active_background: #0f8079;
+	--tab_filtered_selected_active_title_font_color: #000000;
+	--tab_filtered_selected_active_title_font_style: italic;
+	--tab_filtered_selected_active_title_font_weight: bold;
+
+	/* search result active selected hover */
+	--tab_filtered_selected_active_hover_border: #094c48;
+	--tab_filtered_selected_active_hover_background: #0d6d67;
+	--tab_filtered_selected_active_hover_title_font_color: #000000;
+	--tab_filtered_selected_active_hover_title_font_style: italic;
+	--tab_filtered_selected_active_hover_title_font_weight: bold;
+
+	
+	
+	
+	/* search result highlighted */
+	--tab_filtered_highlighted_search_border: #c57f00;
+	--tab_filtered_highlighted_search_background: #ffa500;
+	--tab_filtered_highlighted_search_title_font_color: #000000;
+	--tab_filtered_highlighted_search_title_font_style: normal;
+	--tab_filtered_highlighted_search_title_font_weight: normal;
+
+	/* search result highlighted hover */
+	--tab_filtered_highlighted_search_hover_border: #a86c00;
+	--tab_filtered_highlighted_search_hover_background: #c68100;
+	--tab_filtered_highlighted_search_hover_title_font_color: #000000;
+	--tab_filtered_highlighted_search_hover_title_font_style: normal;
+	--tab_filtered_highlighted_search_hover_title_font_weight: normal;
+
+	/* search result active highlighted */
+	--tab_filtered_active_highlighted_search_border: #a86c00;
+	--tab_filtered_active_highlighted_search_background: #ed9900;
+	--tab_filtered_active_highlighted_search_title_font_color: #000000;
+	--tab_filtered_active_highlighted_search_title_font_style: normal;
+	--tab_filtered_active_highlighted_search_title_font_weight: bold;
+
+
+	/* search result active highlighted hover */
+	--tab_filtered_active_highlighted_search_hover_border: #a86c00;
+	--tab_filtered_active_highlighted_search_hover_background: #c68100;
+	--tab_filtered_active_highlighted_search_hover_title_font_color: #000000;
+	--tab_filtered_active_highlighted_search_hover_title_font_style: normal;
+	--tab_filtered_active_highlighted_search_hover_title_font_weight: bold;
+
+	
+	
+
+	/* search result selected highlighted */
+	--tab_filtered_selected_highlighted_search_border: #a86c00;
+	--tab_filtered_selected_highlighted_search_background: #ed9900;
+	--tab_filtered_selected_highlighted_search_title_font_color: #000000;
+	--tab_filtered_selected_highlighted_search_title_font_style: italic;
+	--tab_filtered_selected_highlighted_search_title_font_weight: normal;
+
+
+	/* search result selected highlighted hover */
+	--tab_filtered_selected_highlighted_search_hover_border: #a86c00;
+	--tab_filtered_selected_highlighted_search_hover_background: #c68100;
+	--tab_filtered_selected_highlighted_search_hover_title_font_color: #000000;
+	--tab_filtered_selected_highlighted_search_hover_title_font_style: italic;
+	--tab_filtered_selected_highlighted_search_hover_title_font_weight: normal;
+
+
+	/* search result selected active highlighted */
+	--tab_filtered_selected_active_highlighted_search_border: #a86c00;
+	--tab_filtered_selected_active_highlighted_search_background: #ed9900;
+	--tab_filtered_selected_active_highlighted_search_title_font_color: #000000;
+	--tab_filtered_selected_active_highlighted_search_title_font_style: italic;
+	--tab_filtered_selected_active_highlighted_search_title_font_weight: bold;
+
+
+	/* search result selected active highlighted hover */
+	--tab_filtered_selected_active_highlighted_search_hover_border: #a86c00;
+	--tab_filtered_selected_active_highlighted_search_hover_background: #c68100;
+	--tab_filtered_selected_active_highlighted_search_hover_title_font_color: #000000;
+	--tab_filtered_selected_active_highlighted_search_hover_title_font_style: italic;
+	--tab_filtered_selected_active_highlighted_search_hover_title_font_weight: bold;
+
+	/* folders */
+	--folder_icon_closed: #969696;
+	--folder_icon_open: #339bf3;
+	--folder_icon_hover: #ffa500;
+
+
+	/* TABS EXPAND INDICATOR */
+	--expand_hover_background: #ffa500;
+	--expand_closed_background: #969696;
+	--expand_open_background: #339bf3;
+
+	--attention_background: #ffd6ce;
+	--attention_border: #ff9d8a;
+	--close_x: #7d7d7d;
+	--close_hover_x: #fbfcfe;
+	--close_hover_border: #757676;
+	--close_hover_background: #939394;
+
+	/* MENU */
+	--tabs_menu_border: #bebebe;
+	--tabs_menu_background: #fafafa;
+	--tabs_menu_font: #333333;
+	--tabs_menu_hover_border: #bebebe;
+	--tabs_menu_hover_background: #efefef;
+	--tabs_menu_separator: #efefef;
+	
+	
+}
+
+
+
+body {
+	/* custom colors are placed here, do not remove this, as loaded theme colors are added to second (this) stylesheet */
+}

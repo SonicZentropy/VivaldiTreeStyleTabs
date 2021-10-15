@@ -1,0 +1,317 @@
+/* MANAGER_WINDOW */
+
+#manager_window {
+	top: 50px;
+	left: 0px;
+	height: auto;
+	width: calc(100% - 3px);
+	border: 1px solid var(--tabs_menu_border);
+	background-color: var(--tabs_menu_background);
+}
+
+
+#manager_window_header {
+	height: 20px;
+}
+#manager_window_header_title {
+	white-space: nowrap;
+	overflow: hidden;
+	width: calc(100% - 22px);
+	position: relative;
+	top: 3px;
+	left: 5px;
+}
+#manager_window_close {
+	background-color: var(--tabs_menu_background);
+	position: absolute;
+	top: 3px;
+	right: 2px;
+	width: 12px;
+	height: 12px;
+	border: 1px solid transparent;
+}
+#manager_window_close .close_img {
+	height: 12px;
+	width: 12px;
+	-webkit-mask-size: 12px 12px;
+	mask-size: 100%;
+}
+#manager_window_close:hover {
+	border: 1px solid var(--close_hover_border);
+	background-color: var(--close_hover_background);
+}
+
+
+
+
+/* LISTS */
+
+.manager_window_list {
+	position: relative;
+	white-space: nowrap;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-top: 3px;
+	top: 4px;
+	left: 2px;
+	width: calc(100% - 6px);
+	background-color: var(--tabs_menu_background);
+	border: 1px solid var(--tabs_menu_border);
+}
+
+.saved_session_row,
+.hibernated_group_row {
+	white-space: nowrap;
+	height: 18px;
+}
+
+.manager_window_session_name,
+.manager_window_group_name {
+	display: inline-block;
+	position: relative;
+	top: -3px;
+	left: 2px;
+	font-size: 12px;
+	color: var(--tabs_menu_font);
+	min-width: 10px;
+}
+
+.export_saved_session,
+.export_hibernated_group {
+	-webkit-mask-image: url(../theme/toolbar_save.svg);
+	mask-image: url(../theme/toolbar_save.svg);
+}
+
+.load_saved_session,
+.load_hibernated_group {
+	-webkit-mask-image: url(../theme/toolbar_import.svg);
+	mask-image: url(../theme/toolbar_import.svg);
+}
+
+.merge_saved_session {
+	-webkit-mask-image: url(../theme/toolbar_merge.svg);
+	mask-image: url(../theme/toolbar_merge.svg);
+}
+
+.delete_saved_session,
+.delete_hibernated_group {
+	-webkit-mask-image: url(../theme/toolbar_trashcan.svg);
+	mask-image: url(../theme/toolbar_trashcan.svg);
+}
+
+
+.manager_window_list_button {
+	opacity: 0.5;
+	position: relative;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: var(--button_icons);
+	mask-size: 18px 18px;
+	-webkit-mask-size: 18px 18px;
+}
+.manager_window_list_button:hover {
+	opacity: 1;
+	/* background-color: var(--tabs_menu_hover_background); */
+}
+
+
+
+/* PANEL BUTTONS */
+
+.manager_window_panel_buttons {
+	font-family: Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans, Sans-serif;
+	font-size: 11px;
+	position: relative;
+	top: 1px;
+	left: 2px;
+	height: 22px;
+	width: calc(100% - 6px);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#manager_window_autosave_panel>.manager_window_panel_buttons {
+	overflow: hidden;
+}
+
+#manager_window_button_import_group {
+	top: 3px;
+	left: 0px;
+	width: calc(50% - 2px);
+}
+#manager_window_button_hibernate_group {
+	top: 3px;
+	left: calc(50% + 2px);
+	width: calc(50% - 2px);
+}
+
+
+#manager_window_autosave_panel>.manager_window_panel_buttons {
+	height: 78px;
+}
+
+
+#manager_window_button_import_session {
+	top: 3px;
+	left: 0px;
+	width: calc(50% - 2px);
+}
+#manager_window_button_save_current_session {
+	top: 3px;
+	left: calc(50% + 2px);
+	width: calc(50% - 2px);
+}
+
+
+
+#manager_window_autosessions_maximum_saves_label {
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+
+#manager_window_autosessions_save_timer_label {
+	position: relative;
+	top: 7px;
+	left: 3px;
+}
+
+#manager_window_autosessions_maximum_saves {
+	position: relative;
+	top: 5px;
+	left: 3px;
+	width: calc(100% - 8px);
+}
+
+#manager_window_autosessions_save_timer {
+	position: relative;
+	top: 9px;
+	left: 3px;
+	width: calc(100% - 8px);
+}
+
+
+
+
+/* PANELS */
+
+.manager_window_panel {
+	position: relative;
+	display: none;
+	background-color: var(--toolbar_shelf_background);
+	z-index: 200;
+}
+.manager_window_panel.mw_pan_on {
+	display: block;
+}
+
+
+
+/* TOOLBAR */
+
+#manager_window_toolbar {
+	position: relative;
+	left: 0px;
+	
+	height: 26px;
+	width: 100%;
+	border-top: 1px solid var(--toolbar_border_bottom);
+	border-bottom: 1px solid var(--toolbar_border_bottom);
+	background-color: var(--toolbar_background);
+}
+
+
+.manager_window_toolbar_button {
+	position: absolute;
+	display: inline-block;
+	vertical-align: top;
+	width: 24px;
+	height: 24px;
+	border: 1px solid var(--toolbar_background);
+}
+.manager_window_toolbar_button_img {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 22px;
+	height: 22px;
+	-webkit-mask-size: 22px 22px;
+	mask-size: 22px 22px;
+	background-color: var(--button_icons);
+}
+
+
+
+.mw_on {
+	border-bottom: none;
+	border-top: none;
+	border-left: 1px solid var(--toolbar_border_bottom);
+	border-right: 1px solid var(--toolbar_border_bottom);
+	background-color: var(--toolbar_shelf_background);
+
+	height: 27px;
+	width: 26px;
+	z-index: 100;
+}
+
+
+
+.mw_on>.manager_window_toolbar_button_img {
+	top: 2px;
+	left: 2px;
+}
+
+
+.manager_window_toolbar_button:not(.mw_on) {
+	background-color: var(--button_background);
+}
+.manager_window_toolbar_button:hover:not(.mw_on) {
+	background-color: var(--button_hover_background);
+	border: 1px solid var(--button_hover_background);
+}
+.manager_window_toolbar_button:hover:not(.mw_on)>.manager_window_toolbar_button_img {
+	background-color: var(--button_icons_hover);
+}
+
+
+#manager_window_groups_button {
+	left: 0px;
+}
+#manager_window_groups_button.mw_on {
+	left: -1px;
+}
+#manager_window_sessions_button {
+	left: 26px;
+}
+#manager_window_sessions_button.mw_on {
+	left: 25px;
+}
+#manager_window_autosave_button {
+	left: 52px;
+}
+#manager_window_autosave_button.mw_on {
+	left: 51px;
+}
+
+
+#manager_window_groups_button>.manager_window_toolbar_button_img {
+	-webkit-mask-image: url(../theme/toolbar_groups.svg);
+	mask-image: url(../theme/toolbar_groups.svg);
+}
+
+#manager_window_sessions_button>.manager_window_toolbar_button_img {
+	-webkit-mask-image: url(../theme/toolbar_save.svg);
+	mask-image: url(../theme/toolbar_save.svg);
+}
+
+#manager_window_autosave_button>.manager_window_toolbar_button_img {
+	-webkit-mask-image: url(../theme/toolbar_history.svg);
+	mask-image: url(../theme/toolbar_history.svg);
+}
+
+.input_number {
+	background-color: var(--filter_box_background);
+	border: solid 1px var(--filter_box_border);
+	color: var(--filter_box_font);
+}

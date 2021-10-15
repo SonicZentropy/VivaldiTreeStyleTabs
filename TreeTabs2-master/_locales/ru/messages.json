@@ -1,0 +1,1184 @@
+{
+   "OpenSidebar": {
+      "message": "Открыть Tree Tabs"
+   },
+   "add_tab_group_regex": {
+      "message": "Добавить"
+   },
+   "attention_background": {
+      "message": "Цвет мигающих вкладок при предупреждении"
+   },
+   "attention_border": {
+      "message": "Цвет рамки мигающих вкладок при предупреждении"
+   },
+   "button_background": {
+      "message": "Цвет кнопок панели инструментов"
+   },
+   "button_backup": {
+      "message": "Сессия"
+   },
+   "button_bookmarks": {
+      "message": "Несортированные закладки"
+   },
+   "button_border": {
+      "message": "Цвет рамки кнопок панели инструментов"
+   },
+   "button_detach": {
+      "message": "Отсоединить текущую вкладку"
+   },
+   "button_discard": {
+      "message": "Выгрузить все вкладки"
+   },
+   "button_downloads": {
+      "message": "Загрузки"
+   },
+   "button_edit_folder": {
+      "message": "Переименовать папку"
+   },
+   "button_edit_group": {
+      "message": "Переименовать группу"
+   },
+   "button_export_bak": {
+      "message": "Экспорт сессии"
+   },
+   "button_export_group": {
+      "message": "Экспорт групп"
+   },
+   "button_extensions": {
+      "message": "Расширения"
+   },
+   "button_filter_type": {
+      "message": "Поиск заголовков или URL-адресов"
+   },
+   "button_folders": {
+      "message": "Папки"
+   },
+   "button_groups": {
+      "message": "Группы"
+   },
+   "button_groups_toolbar_hide": {
+      "message": "Скрыть /показать панель групп"
+   },
+   "button_history": {
+      "message": "История"
+   },
+   "button_hover_background": {
+      "message": "Цвет кнопок панели инструментов при наведении курсора"
+   },
+   "button_hover_border": {
+      "message": "Цвет рамки кнопок панели инструментов при наведении курсора"
+   },
+   "button_icons": {
+      "message": "Цвет иконок кнопок панели инструментов"
+   },
+   "button_icons_hover": {
+      "message": "Цвет иконок кнопок панели инструментов при наведении курсора"
+   },
+   "button_import_bak": {
+      "message": "Импорт сессии"
+   },
+   "button_import_group": {
+      "message": "Импорт групп"
+   },
+   "button_import_merge_bak": {
+      "message": "Импорт и объединение сессии.\nВместо открытия нового окна импортер попытается сопоставить текущие вкладки с вкладками из сохраненного сеанса."
+   },
+   "button_load_bak1": {
+      "message": "ПОМОЩЬ при потере групп: Загрузить последнюю внутреннюю резервную копию (автосохранение выполняется каждые 5 минут)"
+   },
+   "button_load_bak2": {
+      "message": "ПОМОЩЬ при потере групп: Загрузить предыдущую внутреннюю резервную копию (автосохранение выполняется каждые 10 минут)"
+   },
+   "button_load_bak3": {
+      "message": "ПОМОЩЬ при потере групп: Загрузить самую раннюю внутреннюю резервную копию (автосохранение выполняется каждые 30 минут)"
+   },
+   "button_manager_window": {
+      "message": "Открыть окно менеджера"
+   },
+   "button_move": {
+      "message": "Отсоединить текущую вкладку"
+   },
+   "button_new": {
+      "message": "ЛКМ -  создать новую вкладку \nСКМ -  дублировать активную вкладку \nПКМ - прокрутка списка к активной вкладке"
+   },
+   "button_new_folder": {
+      "message": "Новая папка"
+   },
+   "button_new_group": {
+      "message": "Новая группа"
+   },
+   "button_on_background": {
+      "message": "Цвет кнопок панели инструментов при нажатии на них"
+   },
+   "button_on_icons": {
+      "message": "Цвет иконок кнопок панели инструментов при нажатии на них"
+   },
+   "button_options": {
+      "message": "Настройки Tree Tabs"
+   },
+   "button_pin": {
+      "message": "Закрепить / Открепить текущую вкладку"
+   },
+   "button_reboot": {
+      "message": "Перезагрузить Tree Tabs. Попробуйте это в случае, если древовидная структура вкладок потеряна после перезапуска."
+   },
+   "button_remove_folder": {
+      "message": "Удалить выделенные папки"
+   },
+   "button_remove_group": {
+      "message": "Удалить группу.\nС зажатой кнопкой Shift закроются все вкладки из этой группы"
+   },
+   "button_search": {
+      "message": "Поиск вкладок"
+   },
+   "button_settings": {
+      "message": "Настройки браузера"
+   },
+   "button_shelf_background": {
+      "message": "Цвет кнопок подложки панели инструментов"
+   },
+   "button_shelf_border": {
+      "message": "Цвет рамки кнопок подложки панели инструментов"
+   },
+   "button_shelf_hover_background": {
+      "message": "Цвет кнопок подложки панели инструментов при наведении курсора"
+   },
+   "button_shelf_hover_border": {
+      "message": "Цвет рамки кнопок подложки панели инструментов при наведении курсора"
+   },
+   "button_shelf_icons": {
+      "message": "Цвет иконок кнопок подложки панели инструментов"
+   },
+   "button_shelf_icons_hover": {
+      "message": "Цвет иконок кнопок подложки панели инструментов при наведении курсора"
+   },
+   "button_tools": {
+      "message": "Дополнительные инструменты"
+   },
+   "button_undo": {
+      "message": "Открыть последнюю закрытую вкладку"
+   },
+   "button_unload": {
+      "message": "Выгрузить все вкладки"
+   },
+   "caption_clear_filter": {
+      "message": "Очистить результаты поиска"
+   },
+   "caption_loading": {
+      "message": "Загрузка..."
+   },
+   "caption_noname_group": {
+      "message": "без названия"
+   },
+   "caption_searchbox": {
+      "message": "Поиск вкладок..."
+   },
+   "caption_ungrouped_group": {
+      "message": "Разгруппированные"
+   },
+   "close_hover_background": {
+      "message": "Цвет кнопки закрытия вкладки при наведении курсора"
+   },
+   "close_hover_border": {
+      "message": "Цвет рамки кнопки закрытия вкладки при наведении курсора"
+   },
+   "close_hover_x": {
+      "message": "Цвет иконки закрытия вкладки при наведении курсора"
+   },
+   "close_x": {
+      "message": "Цвет иконки закрытия вкладки"
+   },
+   "drag_indicator": {
+      "message": "Цвет индикатора при перетаскивании"
+   },
+   "expand_closed_background": {
+      "message": "Цвет иконки закрытого дерева"
+   },
+   "expand_hover_background": {
+      "message": "Цвет иконки дерева при наведении курсора"
+   },
+   "expand_open_background": {
+      "message": "Цвет иконки открытого дерева"
+   },
+   "extDesc": {
+      "message": "Управляйте своими вкладками с боковой панели!"
+   },
+   "extensionName": {
+      "message": "Tree Tabs"
+   },
+   "filter_box_background": {
+      "message": "Цвет фона окна поиска"
+   },
+   "filter_box_border": {
+      "message": "Цвет рамки окна поиска"
+   },
+   "filter_box_font": {
+      "message": "Цвет шрифта в окне поиска"
+   },
+   "filter_clear_icon": {
+      "message": "Цвет кнопки удаления результатов поиска"
+   },
+   "filter_search_go_next": {
+      "message": "Следующий результат поиска"
+   },
+   "filter_search_go_prev": {
+      "message": "Предыдущий результат поиска"
+   },
+   "folder_edit_button_cancel": {
+      "message": "Отмена"
+   },
+   "folder_edit_button_confirm": {
+      "message": "Ok"
+   },
+   "folder_icon_closed": {
+      "message": "Цвет иконки пустой или закрытой папки"
+   },
+   "folder_icon_hover": {
+      "message": "Цвет иконки открытой папки при наведении курсора"
+   },
+   "folder_icon_open": {
+      "message": "Цвет иконки открытой папки"
+   },
+   "group_edit_button_cancel": {
+      "message": "Отмена"
+   },
+   "group_edit_button_confirm": {
+      "message": "Ok"
+   },
+   "group_list_background": {
+      "message": "Цвет списка групп"
+   },
+   "group_list_borders": {
+      "message": "Цвет рамки списка групп"
+   },
+   "group_list_button_hover_background": {
+      "message": "Цвет группы при наведении курсора"
+   },
+   "group_list_default_font_color": {
+      "message": "Цвет шрифта группы по умолчанию"
+   },
+   "hint_ctrl_t": {
+      "message": "комбинацией [Ctrl+T]"
+   },
+   "hint_explained_new_tab_settings": {
+      "message": "Кнопка [+] в панели инструментов Tree Tabs помещает новые вкладки в корень активной группы, если не установлено иначе."
+   },
+   "hint_from_bookmark": {
+      "message": "из закладок"
+   },
+   "hint_from_external_link": {
+      "message": "по внешней ссылке"
+   },
+   "hint_from_pin": {
+      "message": "ссылкой из закрепленной вкладки"
+   },
+   "hint_from_popup": {
+      "message": "если всплывающее окно открывается как вкладка (настройки в браузере, блокировщик всплывающих окон и подобное)"
+   },
+   "hint_orphan_tab": {
+      "message": "Вкладка-сирота - это вкладка, открытая из внешнего источника следующими способами:"
+   },
+   "manager_window_autosave_button": {
+      "message": "Автосохранённые сессии"
+   },
+   "manager_window_autosessions_maximum_saves_label": {
+      "message": "Количество автосохранений:"
+   },
+   "manager_window_autosessions_save_timer_label": {
+      "message": "Автосохранение через (мин.):"
+   },
+   "manager_window_button_label_hibernate_group": {
+      "message": "Усыпить текущую группу"
+   },
+   "manager_window_button_label_import_group": {
+      "message": "Импорт группы"
+   },
+   "manager_window_button_label_import_session": {
+      "message": "Импорт сессии"
+   },
+   "manager_window_button_label_save_current_session": {
+      "message": "Сохранить текущую сессию"
+   },
+   "manager_window_delete_icon": {
+      "message": "Удалить"
+   },
+   "manager_window_groups_button": {
+      "message": "Спящие группы"
+   },
+   "manager_window_header_title": {
+      "message": "Менеджер"
+   },
+   "manager_window_load_icon": {
+      "message": "Загрузить"
+   },
+   "manager_window_merge_icon": {
+      "message": "Загрузить и объединить"
+   },
+   "manager_window_savetofile_icon": {
+      "message": "Сохранить в файл"
+   },
+   "manager_window_sessions_button": {
+      "message": "Сохранённые сессии"
+   },
+   "menu_bookmark_group": {
+      "message": "Добавить закладку"
+   },
+   "menu_bookmark_tree": {
+      "message": "Добавить закладку"
+   },
+   "menu_close": {
+      "message": "Закрыть вкладку"
+   },
+   "menu_close_other": {
+      "message": "Закрыть другие вкладки"
+   },
+   "menu_close_tree": {
+      "message": "Закрыть дерево"
+   },
+   "menu_collapse_all": {
+      "message": "Свернуть все деревья"
+   },
+   "menu_collapse_tree": {
+      "message": "Свернуть дерево"
+   },
+   "menu_delete_folder": {
+      "message": "Удалить папку"
+   },
+   "menu_delete_group": {
+      "message": "Удалить группу"
+   },
+   "menu_delete_group_tabs_close": {
+      "message": "Удалить группу с вкладками"
+   },
+   "menu_detach_tab": {
+      "message": "Отсоединить вкладку"
+   },
+   "menu_duplicate_tab": {
+      "message": "Дублировать вкладку"
+   },
+   "menu_expand_all": {
+      "message": "Раскрыть все деревья"
+   },
+   "menu_expand_tree": {
+      "message": "Раскрыть дерево"
+   },
+   "menu_group_tabs_close": {
+      "message": "Закрыть вкладки"
+   },
+   "menu_groups_hibernate": {
+      "message": "Спящий режим"
+   },
+   "menu_groups_unload": {
+      "message": "Выгрузить группу"
+   },
+   "menu_manager_window": {
+      "message": "Открыть менеджер"
+   },
+   "menu_mute_other": {
+      "message": "Выключить звук (на других)"
+   },
+   "menu_mute_tab": {
+      "message": "Выключить звук на вкладке"
+   },
+   "menu_mute_tree": {
+      "message": "Выключить звук на вкладках дерева"
+   },
+   "menu_new_folder": {
+      "message": "Новая папка"
+   },
+   "menu_new_group": {
+      "message": "Новая группа"
+   },
+   "menu_new_pin": {
+      "message": "Новая закреплённая вкладка"
+   },
+   "menu_new_tab": {
+      "message": "Новая вкладка"
+   },
+   "menu_pin_tab": {
+      "message": "Закрепить вкладку"
+   },
+   "menu_reload_tab": {
+      "message": "Обновить вкладку"
+   },
+   "menu_rename_folder": {
+      "message": "Переименовать папку"
+   },
+   "menu_rename_group": {
+      "message": "Переименовать группу"
+   },
+   "menu_treetabs_settings": {
+      "message": "Настройки Tree Tabs"
+   },
+   "menu_undo_close_tab": {
+      "message": "Отменить закрытие"
+   },
+   "menu_unload": {
+      "message": "Выгрузить вкладку"
+   },
+   "menu_unmute_other": {
+      "message": "Включить звук (на других)"
+   },
+   "menu_unmute_tab": {
+      "message": "Включить звук на вкладке"
+   },
+   "menu_unmute_tree": {
+      "message": "Включить звук на вкладках дерева"
+   },
+   "menu_unpin_tab": {
+      "message": "Открепить вкладку"
+   },
+   "opt_url_for_web_panel": {
+      "message": "Url-адрес для веб-панели"
+   },
+   "option_allow_pin_close": {
+      "message": "Закрывать закреплённые вкладки из контекстного меню"
+   },
+   "option_tab_group": {
+      "message": "Группа"
+   },
+   "option_tab_match": {
+      "message": "Шаблон"
+   },
+   "options_Remove_button": {
+      "message": "Удалить"
+   },
+   "options_action_folder_close": {
+      "message": "закрыть папку"
+   },
+   "options_action_folder_expand_collapse": {
+      "message": "раскрыть / свернуть дерево"
+   },
+   "options_action_folder_new_folder": {
+      "message": "создать новую папку"
+   },
+   "options_action_folder_new_tab": {
+      "message": "создать новую вкладку"
+   },
+   "options_action_folder_none": {
+      "message": "ничего"
+   },
+   "options_action_folder_rename": {
+      "message": "переименовать папку"
+   },
+   "options_action_folder_unload": {
+      "message": "выгрузить вкладки в папке"
+   },
+   "options_action_group_activate_previous_active": {
+      "message": "вернуться к предыдущей активной вкладке (работает только на незакрепленных вкладках)"
+   },
+   "options_action_group_new": {
+      "message": "открыть новую вкладку"
+   },
+   "options_action_group_none": {
+      "message": "ничего"
+   },
+   "options_action_group_undo_close_tab": {
+      "message": "открыть последнюю закрытую вкладку"
+   },
+   "options_action_tab_activate_previous_active": {
+      "message": "вернуться к предыдущей активной вкладке (работает только на незакрепленных вкладках)"
+   },
+   "options_action_tab_close": {
+      "message": "закрыть вкладку"
+   },
+   "options_action_tab_expand_collapse": {
+      "message": "раскрыть / свернуть дерево"
+   },
+   "options_action_tab_new": {
+      "message": "открыть новую вкладку"
+   },
+   "options_action_tab_none": {
+      "message": "ничего"
+   },
+   "options_action_tab_reload": {
+      "message": "обновить вкладку"
+   },
+   "options_action_tab_undo_close": {
+      "message": "открыть последнюю закрытую вкладку"
+   },
+   "options_action_tab_unload": {
+      "message": "выгрузить вкладку"
+   },
+   "options_add_theme_button": {
+      "message": "Добавить"
+   },
+   "options_after_closing_active_tab": {
+      "message": "После закрытия активной вкладки"
+   },
+   "options_after_closing_active_tab_go_browser": {
+      "message": "активация вкладок согласно настройкам браузера"
+   },
+   "options_after_closing_active_tab_go_down": {
+      "message": "перейти к вкладке ниже"
+   },
+   "options_after_closing_active_tab_go_down_seek_in_parent": {
+      "message": "перейти к вкладке ниже, если она на том же уровне"
+   },
+   "options_after_closing_active_tab_go_up": {
+      "message": "перейти к вкладке выше"
+   },
+   "options_after_closing_active_tab_go_up_seek_in_parent": {
+      "message": "перейти к вкладке выше, если она на том же уровне"
+   },
+   "options_always_show_close": {
+      "message": "Показывать кнопку закрытия на вкладках"
+   },
+   "options_append_child_tab": {
+      "message": "Расположение дочерних вкладок"
+   },
+   "options_append_child_tab_after": {
+      "message": "после родительской вкладки"
+   },
+   "options_append_child_tab_after_limit": {
+      "message": "При достижении максимальной глубины дерева, установить вкладку на том же уровне, но"
+   },
+   "options_append_child_tab_after_limit_after": {
+      "message": "просле родительской"
+   },
+   "options_append_child_tab_after_limit_bottom": {
+      "message": "ниже предыдущей"
+   },
+   "options_append_child_tab_after_limit_top": {
+      "message": "выше предыдущей"
+   },
+   "options_append_child_tab_bottom": {
+      "message": "ниже предыдущих"
+   },
+   "options_append_child_tab_top": {
+      "message": "выше предыдущих (обратная иерархия)"
+   },
+   "options_append_orphan_tab": {
+      "message": "Открывать вкладку-сироту"
+   },
+   "options_append_orphan_tab_after_active": {
+      "message": "после активной вкладки"
+   },
+   "options_append_orphan_tab_as_child": {
+      "message": "как активную дочернюю вкладку"
+   },
+   "options_append_orphan_tab_bottom": {
+      "message": "в нижней части группы"
+   },
+   "options_append_orphan_tab_top": {
+      "message": "в верхней части группы"
+   },
+   "options_available_buttons": {
+      "message": "Настраивайте панель инструментов перетаскиванием элементов. Чтобы скрыть элемент, переместите его на зелёное поле."
+   },
+   "options_clear_data": {
+      "message": "Боковая панель не загружается? Сброс! ВНИМАНИЕ! Все настройки и сохраненные темы будут потеряны!"
+   },
+   "options_collapse_other_trees": {
+      "message": "Автоматически сворачивать другие деревья при раскрывании дерева"
+   },
+   "options_copied_wallet_address": {
+      "message": "Адрес кошелька скопирован в буфер обмена"
+   },
+   "options_dbclick_folder": {
+      "message": "Действие для двойного клика на папке"
+   },
+   "options_dbclick_group": {
+      "message": "Действие для двойного клика на пустом месте слева или под вкладками"
+   },
+   "options_dbclick_tab": {
+      "message": "Действие для двойного клика на вкладке"
+   },
+   "options_debug": {
+      "message": "Отладка"
+   },
+   "options_development": {
+      "message": "Разработка"
+   },
+   "options_example_menu_item": {
+      "message": "пункт меню"
+   },
+   "options_export_debug": {
+      "message": "Экспорт журнала"
+   },
+   "options_export_theme_button": {
+      "message": "Экспорт"
+   },
+   "options_folders": {
+      "message": "Папки"
+   },
+   "options_global": {
+      "message": "Основные"
+   },
+   "options_groups": {
+      "message": "Группы"
+   },
+   "options_groups_toolbar_default": {
+      "message": "Показывать панель инструментов групп в новых окнах"
+   },
+   "options_hide_other_groups_tabs_firefox": {
+      "message": "Показывать вкладки Firefox только из текущей группы. Требуется найти в about:config пункт 'extensions.webextensions.tabhide.enabled' и установить его в 'true'."
+   },
+   "options_import_theme_button": {
+      "message": "Импорт"
+   },
+   "options_loaded_theme_newer_version": {
+      "message": "Вероятно, загруженная тема была сохранена в новой версии расширения, не удается загрузить!"
+   },
+   "options_loaded_theme_older_version": {
+      "message": "Вероятно, загруженная тема была сохранена в старой версии расширения, некоторые цвета или параметры могут отсутствовать."
+   },
+   "options_max_tree_depth": {
+      "message": "Максимальная глубина дерева  (-1 - неограниченное количество ветвей; 0 - отключить древовидную структуру вкладок)"
+   },
+   "options_max_tree_drag_drop": {
+      "message": "Ограничение перетаскивания вкладок до максимальной глубины дерева"
+   },
+   "options_max_tree_drag_drop_folders": {
+      "message": "Ограничение перетаскивания папок до максимальной глубины дерева"
+   },
+   "options_menu": {
+      "message": " Меню "
+   },
+   "options_midclick_folder": {
+      "message": "Действие для средней кнопки мыши на папке"
+   },
+   "options_midclick_group": {
+      "message": "Действие для средней кнопки мыши на пустом месте слева или под вкладками"
+   },
+   "options_midclick_tab": {
+      "message": "Действие для средней кнопки мыши на вкладке"
+   },
+   "options_move_on_url_change": {
+      "message": "Перемещение вкладок, соответствующих регулярным выражениям"
+   },
+   "options_move_on_url_change_all_new": {
+      "message": "при создании вкладки с соответствующим URL-адресом"
+   },
+   "options_move_on_url_change_always": {
+      "message": "при изменении URL-адреса на соответствующий шаблон"
+   },
+   "options_move_on_url_change_from_empty": {
+      "message": "при изменении URL-адреса на вкладке «Домашняя» (только вкладки, созданные с помощью сочетания клавиш [Ctrl+T]"
+   },
+   "options_move_on_url_change_from_empty_b": {
+      "message": "при изменении URL-адреса на любой вкладке «Домашняя»"
+   },
+   "options_move_on_url_change_never": {
+      "message": "никогда"
+   },
+   "options_never_show_close": {
+      "message": "Не показывать кнопку закрытия (опция выше будет проигнорирована)"
+   },
+   "options_no_theme_to_export": {
+      "message": "Нет темы для экспорта, может быть, добавить новую? :)"
+   },
+   "options_open_tree_on_hover": {
+      "message": "Автоматически раскрывать свёрнутые деревья при перетаскивании вкладки с удерживанием курсора над ними"
+   },
+   "options_orphaned_tabs_to_ungrouped": {
+      "message": "Всегда размещать вкладки-сироты в группе «Разгруппированные»"
+   },
+   "options_pin_list_multi_row": {
+      "message": "Список закреплённых вкладок в несколько строк"
+   },
+   "options_pinned": {
+      "message": " Панель закреплённых вкладок "
+   },
+   "options_print_debug": {
+      "message": "Загрузить журнал"
+   },
+   "options_promote_children": {
+      "message": "Оставлять дочерние вкладки при закрытии родительской. (Если отключено, то при закрытии родительской вкладки все дочерние вкладки дерева будут закрыты. Будьте осторожны, так как отмена закрытия вкладки не восстановит структуру дерева)"
+   },
+   "options_promote_children_in_first_child": {
+      "message": "Устанавливать первую дочернюю вкладку как родительскую"
+   },
+   "options_remove_theme_button": {
+      "message": "Удалить"
+   },
+   "options_rename_theme_button": {
+      "message": "Переименовать"
+   },
+   "options_reset_toolbar_button": {
+      "message": "Сброс"
+   },
+   "options_share_theme_link": {
+      "message": "Ещё темы!"
+   },
+   "options_show_counter_groups": {
+      "message": "Показывать количество вкладок в группах"
+   },
+   "options_show_counter_tabs": {
+      "message": "Показывать количество дочерних вкладок в заголовках вкладок и папок"
+   },
+   "options_show_counter_tabs_hints": {
+      "message": "Показывать количество дочерних вкладок в подсказках вкладок и папок"
+   },
+   "options_skip_load": {
+      "message": "Отменить древовидную структуру после перезапуска браузера. Это предназначено для тех, кто не использует сохранение сессии (опция отключает загрузку базы данных при запуске браузера)"
+   },
+   "options_switch_with_scroll": {
+      "message": "Переключение вкладок колёсиком мыши"
+   },
+   "options_syncro_tabbar_groups_tabs_order": {
+      "message": "Синхронизировать порядок вкладок браузера с Tree Tabs после перетаскивания группы вкладок. Вкладки будут долго сортироваться, если в браузере открыто много вкладок. Эта опция необходима для правильного переключения вкладок с помощью клавиш [Ctrl + Tab]. Вы можете отключить эту опцию, если не используете сочетания клавиш."
+   },
+   "options_syncro_tabbar_tabs_order": {
+      "message": "Синхронизировать порядок вкладок браузера с Tree Tabs после их перетаскивания. Вкладки будут долго сортироваться, если в браузере открыто много вкладок. Эта опция необходима для правильного переключения вкладок с помощью клавиш [Ctrl + Tab]. Вы можете отключить эту опцию, если не используете сочетания клавиш."
+   },
+   "options_tab_group_regex": {
+      "message": "Распределение вкладок (элементы, соответствующие данному шаблону, будут перемещены в назначенную группу. Шаблон допускает регулярные выражения.)"
+   },
+   "options_tab_list_scrollbar_height_down": {
+      "message": "Уменьшить высоту полосы прокрутки"
+   },
+   "options_tab_list_scrollbar_height_up": {
+      "message": "Увеличить высоту полосы прокрутки"
+   },
+   "options_tab_list_scrollbar_width_down": {
+      "message": "Уменьшить ширину полосы прокрутки"
+   },
+   "options_tab_list_scrollbar_width_up": {
+      "message": "Увеличить ширину полосы прокрутки"
+   },
+   "options_tabs": {
+      "message": " Вкладки "
+   },
+   "options_tabs_indentation_down": {
+      "message": "Уменьшить отступ вкладок"
+   },
+   "options_tabs_indentation_up": {
+      "message": "Увеличить отступ вкладок"
+   },
+   "options_tabs_margin_0": {
+      "message": "Интервал между вкладками:\nБез интервала, лучше всего подходит для плоского внешнего вида"
+   },
+   "options_tabs_margin_1": {
+      "message": "Интервал между вкладками:\nЗначение по умолчанию: 1px между вкладками"
+   },
+   "options_tabs_margin_overlap": {
+      "message": "Интервал между вкладками:\nПерекрытие в 1px, лучше всего подходит для тем с рамками"
+   },
+   "options_tabs_roundness_down": {
+      "message": "Уменьшить скругление углов вкладок"
+   },
+   "options_tabs_roundness_up": {
+      "message": "Увеличить скругление углов вкладок"
+   },
+   "options_tabs_size_down": {
+      "message": "Уменьшить размер вкладок"
+   },
+   "options_tabs_size_up": {
+      "message": "Увеличить размер вкладок"
+   },
+   "options_theme": {
+      "message": "Тема"
+   },
+   "options_theme_name_cannot_be_empty": {
+      "message": "Название темы не может быть пустым, введите имя"
+   },
+   "options_theme_tabs": {
+      "message": " Внешний вид вкладок "
+   },
+   "options_theme_tabs_sample_text_active": {
+      "message": "Активная вкладка"
+   },
+   "options_theme_tabs_sample_text_active_hover": {
+      "message": "Активная владка при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_active_selected": {
+      "message": "Активная выделенная вкладка"
+   },
+   "options_theme_tabs_sample_text_active_selected_hover": {
+      "message": "Активная выделенная вкладка при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_discarded": {
+      "message": "Выгруженная вкладка"
+   },
+   "options_theme_tabs_sample_text_discarded_hover": {
+      "message": "Выгруженная вкладка при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_discarded_selected": {
+      "message": "Выгруженная выделенная вкладка"
+   },
+   "options_theme_tabs_sample_text_discarded_selected_hover": {
+      "message": "Выгруженная выделенная вкладка при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_normal": {
+      "message": "Обычная вкладка"
+   },
+   "options_theme_tabs_sample_text_normal_hover": {
+      "message": "Обычная вкладка при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_normal_selected": {
+      "message": "Выделенная вкладка"
+   },
+   "options_theme_tabs_sample_text_normal_selected_hover": {
+      "message": "Выделенная вкладка при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_search_result": {
+      "message": "Результат поиска"
+   },
+   "options_theme_tabs_sample_text_search_result_active": {
+      "message": "Активный результат поиска"
+   },
+   "options_theme_tabs_sample_text_search_result_active_hover": {
+      "message": "Активный результат поиска при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted": {
+      "message": "Подсвеченный результат поиска"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_active": {
+      "message": "Активный подсвеченный результат поиска"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_active_hover": {
+      "message": "Активный подсвеченный результат поиска при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_hover": {
+      "message": "Подсвеченный результат поиска при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_selected": {
+      "message": "Выделенный подсвеченный результат поиска"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_selected_active": {
+      "message": "Активный выделенный и подсвеченный результат поиска"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_selected_active_hover": {
+      "message": "Активный выделенный и подсвеченный результат поиска при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_selected_hover": {
+      "message": "Выделенный подсвеченный результат поиска при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_search_result_hover": {
+      "message": "Результат поиска при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_search_result_selected": {
+      "message": "Выделенный результат поиска"
+   },
+   "options_theme_tabs_sample_text_search_result_selected_active": {
+      "message": "Активный выделенный результат поиска"
+   },
+   "options_theme_tabs_sample_text_search_result_selected_active_hover": {
+      "message": "Активный выделенный результат поиска при наведении курсора"
+   },
+   "options_theme_tabs_sample_text_search_result_selected_hover": {
+      "message": "Выделенный результат поиска при наведении курсора"
+   },
+   "options_there_is_a_theme_with_this_name": {
+      "message": "Тема с таким именем существует, введите новое имя"
+   },
+   "options_toolbar": {
+      "message": " Панель инструментов "
+   },
+   "options_toolbar_look": {
+      "message": " Внешний вид панели инструментов "
+   },
+   "options_toolbar_new_tab": {
+      "message": "Кнопка [+] на панели интрументов («Создать вкладку») добавляет новую вкладку"
+   },
+   "options_toolbar_new_tab_as_regular_orphan": {
+      "message": "как вкладку-сироту (опция выше)"
+   },
+   "options_toolbar_new_tab_root_of_group": {
+      "message": "в нижнюю часть группы"
+   },
+   "options_vivaldi": {
+      "message": " Vivaldi "
+   },
+   "options_vivaldi_copied_url": {
+      "message": "Url для веб-панели был скопирован в буфер обмена, добавьте новую веб-панель и вставьте url."
+   },
+   "pin_list_background": {
+      "message": "Цвет списка закреплённых вкладок"
+   },
+   "pin_list_border_bottom": {
+      "message": "Цвет нижней рамки списка закреплённых вкладок"
+   },
+   "scrollbar_thumb": {
+      "message": "Цвет ползунка полосы прокрутки"
+   },
+   "scrollbar_thumb_hover": {
+      "message": "Цвет ползунка полосы прокрутки при наведении курсора"
+   },
+   "scrollbar_track": {
+      "message": "Цвет полосы прокрутки"
+   },
+   "tab_active_background": {
+      "message": ""
+   },
+   "tab_active_border": {
+      "message": ""
+   },
+   "tab_active_hover_background": {
+      "message": ""
+   },
+   "tab_active_hover_border": {
+      "message": ""
+   },
+   "tab_active_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_active_selected_background": {
+      "message": ""
+   },
+   "tab_active_selected_border": {
+      "message": ""
+   },
+   "tab_active_selected_title_font_color": {
+      "message": ""
+   },
+   "tab_active_title_font_color": {
+      "message": ""
+   },
+   "tab_background": {
+      "message": ""
+   },
+   "tab_border": {
+      "message": ""
+   },
+   "tab_discarded_background": {
+      "message": ""
+   },
+   "tab_discarded_border": {
+      "message": ""
+   },
+   "tab_discarded_hover_background": {
+      "message": ""
+   },
+   "tab_discarded_hover_border": {
+      "message": ""
+   },
+   "tab_discarded_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_discarded_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_active_background": {
+      "message": ""
+   },
+   "tab_filtered_active_border": {
+      "message": ""
+   },
+   "tab_filtered_active_highlighted_search_background": {
+      "message": ""
+   },
+   "tab_filtered_active_highlighted_search_border": {
+      "message": ""
+   },
+   "tab_filtered_active_highlighted_search_hover_background": {
+      "message": ""
+   },
+   "tab_filtered_active_highlighted_search_hover_border": {
+      "message": ""
+   },
+   "tab_filtered_active_highlighted_search_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_active_highlighted_search_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_active_hover_background": {
+      "message": ""
+   },
+   "tab_filtered_active_hover_border": {
+      "message": ""
+   },
+   "tab_filtered_active_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_active_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_background": {
+      "message": ""
+   },
+   "tab_filtered_border": {
+      "message": ""
+   },
+   "tab_filtered_highlighted_search_background": {
+      "message": ""
+   },
+   "tab_filtered_highlighted_search_border": {
+      "message": ""
+   },
+   "tab_filtered_highlighted_search_hover_background": {
+      "message": ""
+   },
+   "tab_filtered_highlighted_search_hover_border": {
+      "message": ""
+   },
+   "tab_filtered_highlighted_search_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_highlighted_search_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_hover_background": {
+      "message": ""
+   },
+   "tab_filtered_hover_border": {
+      "message": ""
+   },
+   "tab_filtered_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_background": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_border": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_highlighted_search_background": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_highlighted_search_border": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_highlighted_search_hover_background": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_highlighted_search_hover_border": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_highlighted_search_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_highlighted_search_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_hover_background": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_hover_border": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_selected_active_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_selected_background": {
+      "message": ""
+   },
+   "tab_filtered_selected_border": {
+      "message": ""
+   },
+   "tab_filtered_selected_highlighted_search_background": {
+      "message": ""
+   },
+   "tab_filtered_selected_highlighted_search_border": {
+      "message": ""
+   },
+   "tab_filtered_selected_highlighted_search_hover_background": {
+      "message": ""
+   },
+   "tab_filtered_selected_highlighted_search_hover_border": {
+      "message": ""
+   },
+   "tab_filtered_selected_highlighted_search_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_selected_highlighted_search_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_selected_hover_background": {
+      "message": ""
+   },
+   "tab_filtered_selected_hover_border": {
+      "message": ""
+   },
+   "tab_filtered_selected_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_selected_title_font_color": {
+      "message": ""
+   },
+   "tab_filtered_title_font_color": {
+      "message": ""
+   },
+   "tab_hover_background": {
+      "message": ""
+   },
+   "tab_hover_border": {
+      "message": ""
+   },
+   "tab_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_list_background": {
+      "message": "Цвет списка вкладок"
+   },
+   "tab_selected_active_hover_background": {
+      "message": ""
+   },
+   "tab_selected_active_hover_border": {
+      "message": ""
+   },
+   "tab_selected_active_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_selected_background": {
+      "message": ""
+   },
+   "tab_selected_border": {
+      "message": ""
+   },
+   "tab_selected_discarded_background": {
+      "message": ""
+   },
+   "tab_selected_discarded_border": {
+      "message": ""
+   },
+   "tab_selected_discarded_hover_background": {
+      "message": ""
+   },
+   "tab_selected_discarded_hover_border": {
+      "message": ""
+   },
+   "tab_selected_discarded_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_selected_discarded_title_font_color": {
+      "message": ""
+   },
+   "tab_selected_hover_background": {
+      "message": ""
+   },
+   "tab_selected_hover_border": {
+      "message": ""
+   },
+   "tab_selected_hover_title_font_color": {
+      "message": ""
+   },
+   "tab_selected_title_font_color": {
+      "message": ""
+   },
+   "tab_title_font_color": {
+      "message": ""
+   },
+   "tabs_menu_background": {
+      "message": "Цвет фона меню"
+   },
+   "tabs_menu_border": {
+      "message": "Цвет рамки меню"
+   },
+   "tabs_menu_font": {
+      "message": "Цвет шрифта пунктов меню"
+   },
+   "tabs_menu_hover_background": {
+      "message": "Цвет пункта меню при наведении курсора"
+   },
+   "tabs_menu_hover_border": {
+      "message": "Цвет рамки пункта меню при наведении курсора"
+   },
+   "tabs_menu_separator": {
+      "message": "Цвет разделителя"
+   },
+   "toolbar_background": {
+      "message": "Цвет панели инструментов"
+   },
+   "toolbar_border_bottom": {
+      "message": "Цвет рамки панели инструментов"
+   },
+   "toolbar_shelf_background": {
+      "message": "Цвет подложки панели инструментов"
+   }
+}

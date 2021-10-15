@@ -1,0 +1,1010 @@
+{
+   "OpenSidebar": {
+      "message": "Open Tree Tabs 2"
+   },
+   "add_tab_group_regex": {
+      "message": "Add"
+   },
+   "attention_background": {
+      "message": "Tabs blinking for attention, background color"
+   },
+   "attention_border": {
+      "message": "Tabs blinking for attention, border color"
+   },
+   "button_background": {
+      "message": "Toolbar buttons background"
+   },
+   "button_backup": {
+      "message": "Session"
+   },
+   "button_bookmarks": {
+      "message": "Unsorted bookmarks"
+   },
+   "button_border": {
+      "message": "Toolbar buttons border color"
+   },
+   "button_detach": {
+      "message": "Detach tab"
+   },
+   "button_discard": {
+      "message": "Unload tabs"
+   },
+   "button_downloads": {
+      "message": "Downloads"
+   },
+   "button_edit_folder": {
+      "message": "Rename folder"
+   },
+   "button_edit_group": {
+      "message": "Rename group"
+   },
+   "button_export_bak": {
+      "message": "Export session"
+   },
+   "button_export_group": {
+      "message": "Export group"
+   },
+   "button_extensions": {
+      "message": "Extensions"
+   },
+   "button_filter_type": {
+      "message": "Search titles or urls"
+   },
+   "button_folders": {
+      "message": "Folders"
+   },
+   "button_groups": {
+      "message": "Groups"
+   },
+   "button_groups_toolbar_hide": {
+      "message": "Hide/Show Groups toolbar"
+   },
+   "button_history": {
+      "message": "History"
+   },
+   "button_hover_background": {
+      "message": "Toolbar buttons background, on mouse hover"
+   },
+   "button_hover_border": {
+      "message": "Toolbar buttons border color, on mouse hover"
+   },
+   "button_icons": {
+      "message": "Toolbar buttons icon color"
+   },
+   "button_icons_hover": {
+      "message": "Toolbar buttons icon color, on mouse hover"
+   },
+   "button_import_bak": {
+      "message": "Import session"
+   },
+   "button_import_group": {
+      "message": "Import group"
+   },
+   "button_import_merge_bak": {
+      "message": "Import and merge session.\nImporter will try to match current tabs with those from saved session, instead of opening a new window."
+   },
+   "button_load_bak1": {
+      "message": "EMERGENCY if lost groupings: Load latest internal backup (autosave is made every 5 minutes)"
+   },
+   "button_load_bak2": {
+      "message": "EMERGENCY if lost groupings: Load previous to latest internal backup (autosave is made every 10 minutes)"
+   },
+   "button_load_bak3": {
+      "message": "EMERGENCY if lost groupings: Load oldest internal backup (autosave is made every 30 minutes)"
+   },
+   "button_manager_window": {
+      "message": "Open manager window"
+   },
+   "button_move": {
+      "message": "Detach tab"
+   },
+   "button_new": {
+      "message": "Press left mouse button to open new tab. \nPress middle mouse button to clone the active tab. \nPress right mouse button to scroll the list to the active tab."
+   },
+   "button_new_folder": {
+      "message": "New folder"
+   },
+   "button_new_group": {
+      "message": "New group"
+   },
+   "button_on_background": {
+      "message": "Toolbar active buttons background"
+   },
+   "button_on_icons": {
+      "message": "Toolbar active buttons icon color"
+   },
+   "button_options": {
+      "message": "Tree Tabs 2 settings"
+   },
+   "button_pin": {
+      "message": "Pin / Unpin current tab"
+   },
+   "button_reboot": {
+      "message": "Reload Tree Tabs 2. Try this in case your tree hierarchy is lost after restart."
+   },
+   "button_remove_folder": {
+      "message": "Remove selected folder/s"
+   },
+   "button_remove_group": {
+      "message": "Remove group.\nHold shift key to close tabs from this group"
+   },
+   "button_search": {
+      "message": "Search tabs"
+   },
+   "button_settings": {
+      "message": "Settings"
+   },
+   "button_shelf_background": {
+      "message": "Toolbar's shelf buttons background color"
+   },
+   "button_shelf_border": {
+      "message": "Toolbar's shelf buttons border color"
+   },
+   "button_shelf_hover_background": {
+      "message": "Toolbar's shelf buttons background color, on mouse hover"
+   },
+   "button_shelf_hover_border": {
+      "message": "Toolbar's shelf buttons border color, on mouse hover"
+   },
+   "button_shelf_icons": {
+      "message": "Toolbar's shelf buttons icon color"
+   },
+   "button_shelf_icons_hover": {
+      "message": "Toolbar's shelf buttons icon color, on mouse hover"
+   },
+   "button_tools": {
+      "message": "Tools"
+   },
+   "button_undo": {
+      "message": "Reopen last closed"
+   },
+   "button_unload": {
+      "message": "Unload tabs"
+   },
+   "caption_clear_filter": {
+      "message": "Clear search results"
+   },
+   "caption_loading": {
+      "message": "Loading..."
+   },
+   "caption_noname_group": {
+      "message": "untitled"
+   },
+   "caption_searchbox": {
+      "message": " Search tabs..."
+   },
+   "caption_ungrouped_group": {
+      "message": "Ungrouped"
+   },
+   "close_hover_background": {
+      "message": "close button box color, on mouse hover"
+   },
+   "close_hover_border": {
+      "message": "close button border, on mouse hover"
+   },
+   "close_hover_x": {
+      "message": "x inside the close button, on mouse hover"
+   },
+   "close_x": {
+      "message": "x inside the close button"
+   },
+   "drag_indicator": {
+      "message": "Drag&Drop indicator"
+   },
+   "expand_closed_background": {
+      "message": "Closed tree indicator"
+   },
+   "expand_hover_background": {
+      "message": "Tree indicator on mouse hover"
+   },
+   "expand_open_background": {
+      "message": "Open tree indicator"
+   },
+   "extDesc": {
+      "message": "Manage your tabs in the sidebar!"
+   },
+   "extensionName": {
+      "message": "Tree Tabs 2"
+   },
+   "filter_box_background": {
+      "message": "Search box, font background color"
+   },
+   "filter_box_border": {
+      "message": "Search box, border color"
+   },
+   "filter_box_font": {
+      "message": "Search box, font color"
+   },
+   "filter_clear_icon": {
+      "message": "Clear search result x button color"
+   },
+   "filter_search_go_next": {
+      "message": "Next search result"
+   },
+   "filter_search_go_prev": {
+      "message": "Previous search result"
+   },
+   "folder_edit_button_cancel": {
+      "message": "Cancel"
+   },
+   "folder_edit_button_confirm": {
+      "message": "Ok"
+   },
+   "folder_icon_closed": {
+      "message": "Empty or closed folder icon"
+   },
+   "folder_icon_hover": {
+      "message": "Folder icon on mouse hover"
+   },
+   "folder_icon_open": {
+      "message": "Open folder icon"
+   },
+   "group_edit_button_cancel": {
+      "message": "Cancel"
+   },
+   "group_edit_button_confirm": {
+      "message": "Ok"
+   },
+   "group_list_background": {
+      "message": "Group list background color"
+   },
+   "group_list_borders": {
+      "message": "Group list border"
+   },
+   "group_list_button_hover_background": {
+      "message": "Group on mouse hover"
+   },
+   "group_list_default_font_color": {
+      "message": "Group list default font color"
+   },
+   "hint_ctrl_t": {
+      "message": "ctrl+t shortcut"
+   },
+   "hint_explained_new_tab_settings": {
+      "message": "+ button in the Tree Tabs 2 toolbar"
+   },
+   "hint_from_bookmark": {
+      "message": "bookmark"
+   },
+   "hint_from_external_link": {
+      "message": "external link"
+   },
+   "hint_from_pin": {
+      "message": "link that opens new tab from pinned tab"
+   },
+   "hint_from_popup": {
+      "message": "popup opened as a tab (settings in browser, popup blocker or anything that redirects popups to new tabs)"
+   },
+   "hint_orphan_tab": {
+      "message": "Orphan tab is a tab opened from an external source, which can be:"
+   },
+   "manager_window_autosave_button": {
+      "message": "Auto saved sessions"
+   },
+   "manager_window_autosessions_maximum_saves_label": {
+      "message": "Number of autosaves to keep:"
+   },
+   "manager_window_autosessions_save_timer_label": {
+      "message": "Autosave every (minutes):"
+   },
+   "manager_window_button_label_hibernate_group": {
+      "message": "Hibernate current group"
+   },
+   "manager_window_button_label_import_group": {
+      "message": "Import group"
+   },
+   "manager_window_button_label_import_session": {
+      "message": "Import session"
+   },
+   "manager_window_button_label_save_current_session": {
+      "message": "Save current session"
+   },
+   "manager_window_delete_icon": {
+      "message": "Remove"
+   },
+   "manager_window_groups_button": {
+      "message": "Hibernated groups"
+   },
+   "manager_window_header_title": {
+      "message": "Manager"
+   },
+   "manager_window_load_icon": {
+      "message": "Load"
+   },
+   "manager_window_merge_icon": {
+      "message": "Load and merge"
+   },
+   "manager_window_savetofile_icon": {
+      "message": "Save to file"
+   },
+   "manager_window_sessions_button": {
+      "message": "Saved sessions"
+   },
+   "menu_bookmark_group": {
+      "message": "Bookmark"
+   },
+   "menu_bookmark_tree": {
+      "message": "Bookmark"
+   },
+   "menu_close": {
+      "message": "Close"
+   },
+   "menu_close_other": {
+      "message": "Close other"
+   },
+   "menu_close_tree": {
+      "message": "Close tree"
+   },
+   "menu_close_children": {
+      "message": "Close children"
+   },
+   "menu_collapse_all": {
+      "message": "Collapse all trees"
+   },
+   "menu_collapse_tree": {
+      "message": "Collapse tree"
+   },
+   "menu_delete_folder": {
+      "message": "Delete"
+   },
+   "menu_delete_group": {
+      "message": "Delete"
+   },
+   "menu_delete_group_tabs_close": {
+      "message": "Delete with tabs"
+   },
+   "menu_detach_tab": {
+      "message": "Detach"
+   },
+   "menu_duplicate_tab": {
+      "message": "Duplicate"
+   },
+   "menu_expand_all": {
+      "message": "Expand all trees"
+   },
+   "menu_expand_tree": {
+      "message": "Expand tree"
+   },
+   "menu_group_tabs_close": {
+      "message": "Close tabs"
+   },
+   "menu_groups_hibernate": {
+      "message": "Hibernate"
+   },
+   "menu_groups_unload": {
+      "message": "Unload"
+   },
+   "menu_manager_window": {
+      "message": "Open manager"
+   },
+   "menu_mute_other": {
+      "message": "Mute other"
+   },
+   "menu_mute_tab": {
+      "message": "Mute"
+   },
+   "menu_mute_tree": {
+      "message": "Mute tree"
+   },
+   "menu_new_folder": {
+      "message": "New folder"
+   },
+   "menu_new_group": {
+      "message": "New group"
+   },
+   "menu_new_pin": {
+      "message": "New pinned tab"
+   },
+   "menu_new_tab": {
+      "message": "New tab"
+   },
+   "menu_pin_tab": {
+      "message": "Pin"
+   },
+   "menu_reload_tab": {
+      "message": "Reload"
+   },
+   "menu_rename_folder": {
+      "message": "Rename folder"
+   },
+   "menu_rename_group": {
+      "message": "Rename"
+   },
+   "menu_TreeTabs2_settings": {
+      "message": "Settings"
+   },
+   "menu_undo_close_tab": {
+      "message": "Undo close"
+   },
+   "menu_unload": {
+      "message": "Unload"
+   },
+   "menu_unload_tree": {
+      "message": "Unload tree"
+   },
+   "menu_unmute_other": {
+      "message": "Unmute other"
+   },
+   "menu_unmute_tab": {
+      "message": "Unmute"
+   },
+   "menu_unmute_tree": {
+      "message": "Unmute tree"
+   },
+   "menu_unpin_tab": {
+      "message": "Unpin"
+   },
+   "opt_url_for_web_panel": {
+      "message": "Url for the Web Panel"
+   },
+   "option_allow_pin_close": {
+      "message": "Allow to close pinned tabs"
+   },
+   "option_audio_blinking": {
+      "message": "Blink audio indicator"
+   },
+   "option_pin_attention_blinking": {
+      "message": "Blink pinned tabs that ask for attention"
+   },
+   "option_tab_group": {
+      "message": "Group"
+   },
+   "option_tab_match": {
+      "message": "Pattern"
+   },
+   "options_Remove_button": {
+      "message": "Remove"
+   },
+   "options_action_folder_close": {
+      "message": "close folder"
+   },
+   "options_action_folder_expand_collapse": {
+      "message": "expand/collapse tree"
+   },
+   "options_action_folder_new_folder": {
+      "message": "make new subfolder"
+   },
+   "options_action_folder_new_tab": {
+      "message": "open new child tab"
+   },
+   "options_action_folder_none": {
+      "message": "nothing"
+   },
+   "options_action_folder_rename": {
+      "message": "rename folder"
+   },
+   "options_action_folder_unload": {
+      "message": "unload tabs in folder"
+   },
+   "options_action_group_activate_previous_active": {
+      "message": "go back to previous active tab (works only on unpinned tabs)"
+   },
+   "options_action_group_new": {
+      "message": "open new tab"
+   },
+   "options_action_group_none": {
+      "message": "nothing"
+   },
+   "options_action_group_undo_close_tab": {
+      "message": "reopen last closed tab"
+   },
+   "options_action_tab_activate_previous_active": {
+      "message": "go back to previous active tab (works only on unpinned tabs)"
+   },
+   "options_action_tab_close": {
+      "message": "close tab"
+   },
+   "options_action_tab_expand_collapse": {
+      "message": "expand/collapse tree"
+   },
+   "options_action_tab_new_child": {
+      "message": "open new child tab"
+   },
+   "options_action_tab_new_sibling": {
+      "message": "open new sibling tab"
+   },
+   "options_action_tab_none": {
+      "message": "nothing"
+   },
+   "options_action_tab_reload": {
+      "message": "reload tab"
+   },
+   "options_action_tab_undo_close": {
+      "message": "reopen last closed tab"
+   },
+   "options_action_tab_unload": {
+      "message": "unload tab"
+   },
+   "options_add_theme_button": {
+      "message": "Add new"
+   },
+   "options_after_closing_active_tab": {
+      "message": "After closing active tab,"
+   },
+   "options_after_closing_active_tab_go_browser": {
+      "message": "let browser activate tab"
+   },
+   "options_after_closing_active_tab_go_down": {
+      "message": "activate tab below"
+   },
+   "options_after_closing_active_tab_go_down_seek_in_parent": {
+      "message": "activate tab below if on the same level"
+   },
+   "options_after_closing_active_tab_go_up": {
+      "message": "activate tab above"
+   },
+   "options_after_closing_active_tab_go_up_seek_in_parent": {
+      "message": "activate tab above if on the same level"
+   },
+   "options_always_show_close": {
+      "message": "Show close button on all tabs and folders"
+   },
+   "options_append_child_tab": {
+      "message": "Place child tab"
+   },
+   "options_append_child_tab_after": {
+      "message": "after parent tab (no automatic tree)"
+   },
+   "options_append_child_tab_after_limit": {
+      "message": "Once reached maximum tree depth, place tab on the same level, but"
+   },
+   "options_append_child_tab_after_limit_after": {
+      "message": "after parent"
+   },
+   "options_append_child_tab_after_limit_bottom": {
+      "message": "at the bottom"
+   },
+   "options_append_child_tab_after_limit_top": {
+      "message": "at the top"
+   },
+   "options_append_child_tab_bottom": {
+      "message": " at the bottom"
+   },
+   "options_append_child_tab_top": {
+      "message": "at the top (reverse hierarchy)"
+   },
+   "options_append_orphan_tab": {
+      "message": "Place orphan tab"
+   },
+   "options_append_orphan_tab_active_parent_bottom": {
+      "message": "at the same level as active tab, but on bottom"
+   },
+   "options_append_orphan_tab_active_parent_top": {
+      "message": "at the same level as active tab, but on top"
+   },
+   "options_append_orphan_tab_after_active": {
+      "message": "after active tab"
+   },
+   "options_append_orphan_tab_as_child": {
+      "message": "as a child of the active tab and take action from 'place child' from above"
+   },
+   "options_append_orphan_tab_bottom": {
+      "message": "at the bottom of the group"
+   },
+   "options_append_orphan_tab_top": {
+      "message": "at the top of the group"
+   },
+   "options_append_pinned_tab": {
+      "message": "Place pinned tab"
+   },
+   "options_append_pinned_tab_after": {
+      "message": "after opener, or active"
+   },
+   "options_append_pinned_tab_first": {
+      "message": "as first"
+   },
+   "options_append_pinned_tab_last": {
+      "message": "as last"
+   },
+   "options_available_buttons": {
+      "message": "Drag and drop buttons to arrange them, drop to the green box, buttons you don't want to use"
+   },
+   "options_clear_data": {
+      "message": "Sidebar is not loading? Reset! ATTENTION! All options and saved Themes will be lost!"
+   },
+   "options_collapse_other_trees": {
+      "message": "Automatically collapse other trees on expand"
+   },
+   "options_copied_wallet_address": {
+      "message": "Wallet address has been copied to clipboard"
+   },
+   "options_dbclick_folder": {
+      "message": "Action for double click on folder"
+   },
+   "options_dbclick_group": {
+      "message": "Action for double click on empty space below the tabs"
+   },
+   "options_dbclick_tab": {
+      "message": "Action for double click on tab"
+   },
+   "options_debug": {
+      "message": "Debug"
+   },
+   "options_debug_favicon": {
+      "message": "Include tab title and favicon in debug log."
+   },
+   "options_development": {
+      "message": "Development"
+   },
+   "options_example_menu_item": {
+      "message": "menu item"
+   },
+   "options_export_debug": {
+      "message": "Export log file"
+   },
+   "options_clear_debug": {
+      "message": "Clear the debug log"
+   },
+   "options_export_theme_button": {
+      "message": "Export"
+   },
+   "options_folders": {
+      "message": "Folders"
+   },
+   "options_global": {
+      "message": "Global"
+   },
+   "options_groups": {
+      "message": "Groups"
+   },
+   "options_groups_toolbar_default": {
+      "message": "Show groups toolbar in new windows"
+   },
+   "options_hide_other_groups_tabs_firefox": {
+      "message": "Show Firefox tabs from current group only. Requires change in about:config, find 'extensions.webextensions.tabhide.enabled' and set it to true."
+   },
+   "options_import_theme_button": {
+      "message": "Import"
+   },
+   "options_loaded_theme_newer_version": {
+      "message": "Looks like loaded theme was saved in a newer version of the extension, can't load!"
+   },
+   "options_loaded_theme_older_version": {
+      "message": "Looks like loaded theme was saved in older version of the extension, some colors or options might be missing"
+   },
+   "options_max_tree_depth": {
+      "message": "Maximum tree depth: set it to -1 for unlimited branches, 0 for flat tabs placement (no trees), any number above 0 will be its maximum"
+   },
+   "options_max_tree_drag_drop": {
+      "message": "Limit Drag&Drop to tree's maximum depth, so you can't drop tabs beyond maximum depth"
+   },
+   "options_menu": {
+      "message": " Menu "
+   },
+   "options_midclick_folder": {
+      "message": "Action for middle mouse click on folder"
+   },
+   "options_midclick_group": {
+      "message": "Action for middle click on empty space below the tabs"
+   },
+   "options_midclick_tab": {
+      "message": "Action for middle mouse click on tab"
+   },
+   "options_move_on_url_change": {
+      "message": "Move tabs that match regexes"
+   },
+   "options_move_on_url_change_all_new": {
+      "message": "when tab is created with a matching URL"
+   },
+   "options_move_on_url_change_always": {
+      "message": "whenever URL changes to a matching pattern"
+   },
+   "options_move_on_url_change_from_empty": {
+      "message": "when URL changes in Home tab (only Home tabs created by ctrl+t shortcut)"
+   },
+   "options_move_on_url_change_from_empty_b": {
+      "message": "when URL changes in any Home tab"
+   },
+   "options_move_on_url_change_never": {
+      "message": "never"
+   },
+   "options_never_show_close": {
+      "message": "Never show close button (option above will be ignored)"
+   },
+   "options_no_theme_to_export": {
+      "message": "No theme to export, maybe add a new one :)"
+   },
+   "options_open_tree_on_hover": {
+      "message": "Auto expand collapsed trees when dragging and holding for a second over them"
+   },
+   "options_orphaned_tabs_to_ungrouped": {
+      "message": "Always place orphan tabs in the 'ungrouped' group"
+   },
+   "options_pin_list_multi_row": {
+      "message": "Multi row list"
+   },
+   "options_pinned": {
+      "message": " Pinned tabs bar "
+   },
+   "options_promote_children": {
+      "message": "Promote children on close, if disabled, when closing the parent of a tree structure, all tabs and folders will be closed (be careful, because undo close tab will not recover the trees structure)"
+   },
+   "options_promote_children_in_first_child": {
+      "message": "Promote first child as a parent"
+   },
+   "options_remove_theme_button": {
+      "message": "Remove"
+   },
+   "options_rename_theme_button": {
+      "message": "Rename"
+   },
+   "options_reset_toolbar_button": {
+      "message": "Reset toolbar"
+   },
+   "options_share_theme_link": {
+      "message": "Get more!"
+   },
+   "options_show_counter_groups": {
+      "message": "Show tabs count on groups"
+   },
+   "options_show_counter_tabs": {
+      "message": "Show children tabs count on tabs and folders titles"
+   },
+   "options_show_counter_tabs_hints": {
+      "message": "Show children tabs count in tabs and folders hints"
+   },
+   "options_skip_load": {
+      "message": "Discard tree structure after browser's restart, this option is for those who don't use browser's session. Basically it disables loading database at startup."
+   },
+   "options_switch_with_scroll": {
+      "message": "Switch tabs with mouse wheel"
+   },
+   "options_syncro_tabbar_groups_tabs_order": {
+      "message": "Synchronize browser tabs order after drag&drop of the group tabs. Tabs will sort for a long time, if browser has a lot of tabs open. This option is needed for correct ctrl+tab switching. You can disable this option if you don't use keyboard shortcuts."
+   },
+   "options_syncro_tabbar_tabs_order": {
+      "message": "Synchronize browser tabs order with Tree Tabs 2, tabs can be unresponsive for a second after drag&drop. This option is needed for correct ctrl+tab switching. You can disable this option if you don't use keyboard shortcuts."
+   },
+   "options_tab_group_regex": {
+      "message": "Tab group assignments (Items matching the given pattern will be moved to the designated group. Pattern accepts regular expressions.)"
+   },
+   "options_tab_list_scrollbar_height_down": {
+      "message": "Decrease scrollbars height"
+   },
+   "options_tab_list_scrollbar_height_up": {
+      "message": "Increase scrollbars height"
+   },
+   "options_tab_list_scrollbar_width_down": {
+      "message": "Decrease scrollbars width"
+   },
+   "options_tab_list_scrollbar_width_up": {
+      "message": "Increase scrollbars width"
+   },
+   "options_tabs": {
+      "message": " Tabs "
+   },
+   "options_tabs_indentation_down": {
+      "message": "Decrease tabs indentation"
+   },
+   "options_tabs_indentation_up": {
+      "message": "Increase tabs indentation"
+   },
+   "options_tabs_margin_0": {
+      "message": "Tabs spacing:\nNo spacing, best for flat look"
+   },
+   "options_tabs_margin_1": {
+      "message": "Tabs spacing:\nDefault, 1px between tabs"
+   },
+   "options_tabs_margin_overlap": {
+      "message": "Tabs spacing:\nOverlap 1px, best for themes with borders"
+   },
+   "options_tabs_roundness_down": {
+      "message": "Make tabs corners more square"
+   },
+   "options_tabs_roundness_up": {
+      "message": "Make tabs rounder"
+   },
+   "options_tabs_size_down": {
+      "message": "Decrease tabs size"
+   },
+   "options_tabs_size_up": {
+      "message": "Increase tabs size"
+   },
+   "options_theme": {
+      "message": "Theme"
+   },
+   "options_theme_name_cannot_be_empty": {
+      "message": "Theme name cannot be empty, enter some name"
+   },
+   "options_theme_tabs": {
+      "message": " Tabs look "
+   },
+   "options_theme_tabs_sample_text_active": {
+      "message": "Active"
+   },
+   "options_theme_tabs_sample_text_active_hover": {
+      "message": "Active, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_active_selected": {
+      "message": "Active and selected"
+   },
+   "options_theme_tabs_sample_text_active_selected_hover": {
+      "message": "Active and selected, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_discarded": {
+      "message": "Unloaded (discarded)"
+   },
+   "options_theme_tabs_sample_text_discarded_hover": {
+      "message": "Unloaded, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_discarded_selected": {
+      "message": "Unloaded and selected"
+   },
+   "options_theme_tabs_sample_text_discarded_selected_hover": {
+      "message": "Unloaded and selected, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_normal": {
+      "message": "Normal"
+   },
+   "options_theme_tabs_sample_text_normal_hover": {
+      "message": "Normal, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_normal_selected": {
+      "message": "Normal selected"
+   },
+   "options_theme_tabs_sample_text_normal_selected_hover": {
+      "message": "Normal selected, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_search_result": {
+      "message": "Search result"
+   },
+   "options_theme_tabs_sample_text_search_result_active": {
+      "message": "Search result active"
+   },
+   "options_theme_tabs_sample_text_search_result_active_hover": {
+      "message": "Search result active, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted": {
+      "message": "Search result highlighted"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_active": {
+      "message": "Search result highlighted, active"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_active_hover": {
+      "message": "Search result highlighted, active, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_hover": {
+      "message": "Search result highlighted, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_selected": {
+      "message": "Search result highlighted, selected"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_selected_active": {
+      "message": "Search result highlighted, selected, active"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_selected_active_hover": {
+      "message": "Search result highlighted, selected, active, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_search_result_highlighted_selected_hover": {
+      "message": "Search result highlighted, selected, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_search_result_hover": {
+      "message": "Search result, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_search_result_selected": {
+      "message": "Search result selected"
+   },
+   "options_theme_tabs_sample_text_search_result_selected_active": {
+      "message": "Search result selected, active"
+   },
+   "options_theme_tabs_sample_text_search_result_selected_active_hover": {
+      "message": "Search result selected, active, mouse hover over"
+   },
+   "options_theme_tabs_sample_text_search_result_selected_hover": {
+      "message": "Search result selected, mouse hover over"
+   },
+   "options_there_is_a_theme_with_this_name": {
+      "message": "Theme with this name already exists, try a new name"
+   },
+   "options_toolbar": {
+      "message": " Toolbar "
+   },
+   "options_toolbar_look": {
+      "message": " Toolbar's look "
+   },
+   "options_toolbar_new_tab": {
+      "message": "Toolbar + (new tab button) should place tab"
+   },
+   "options_toolbar_new_tab_as_regular_child": {
+      "message": "as a child of the active tab and take action from 'place child' from above"
+   },
+   "options_toolbar_new_tab_as_regular_orphan": {
+      "message": "as an orphan tab and take action from 'place orphan' from above"
+   },
+   "options_toolbar_new_tab_root_of_group": {
+      "message": "at the bottom of the group"
+   },
+   "options_vivaldi": {
+      "message": " Vivaldi "
+   },
+   "options_vivaldi_copied_url": {
+      "message": "Web Panel Url has been copied to clipboard, add a new Web Panel and paste url."
+   },
+   "pin_list_background": {
+      "message": "Pinned tabs list, background color"
+   },
+   "pin_list_border_bottom": {
+      "message": "Pinned tabs list, border at the bottom color"
+   },
+   "scrollbar_thumb": {
+      "message": "Scrollbar thumb"
+   },
+   "scrollbar_thumb_hover": {
+      "message": "Scrollbar thumb, on mouse hover"
+   },
+   "scrollbar_track": {
+      "message": "Scrollbar track"
+   },
+   "status_bar_all_done": {
+      "message": "All done."
+   },
+   "status_bar_autosave": {
+      "message": "Autosave: "
+   },
+   "status_bar_finding_other_windows": {
+      "message": "Finding other windows to add tabs..."
+   },
+   "status_bar_finding_ref_tabs": {
+      "message": "Finding reference tabs..."
+   },
+   "status_bar_loaded_tree_structure": {
+      "message": "Loaded Tree structure..."
+   },
+   "status_bar_reading_session_data": {
+      "message": "Reading session data"
+   },
+   "status_bar_recreating_session": {
+      "message": "Recreating session"
+   },
+   "status_bar_restoring_tabs": {
+      "message": "Restoring tabs"
+   },
+   "status_bar_saving_session": {
+      "message": "Saving session"
+   },
+   "status_bar_quick_check_recreate_structure": {
+      "message": "Quick check and recreating structure..."
+   },
+   "status_bar_ready": {
+      "message": "Ready."
+   },
+   "status_bar_rearranging_finished": {
+      "message": "Rearranging: done."
+   },
+   "status_bar_rearranging_tabs": {
+      "message": "Rearranging tabs and folders"
+   },
+   "status_bar_running_in_safe_mode": {
+      "message": "Session did not match and will not save! Click here to reload."
+   },
+   "tab_list_background": {
+      "message": "Tabs background color"
+   },
+   "tabs_menu_background": {
+      "message": "menu background"
+   },
+   "tabs_menu_border": {
+      "message": "menu border"
+   },
+   "tabs_menu_font": {
+      "message": "menu text color"
+   },
+   "tabs_menu_hover_background": {
+      "message": "menu item background, on mouse hover"
+   },
+   "tabs_menu_hover_border": {
+      "message": "menu item border, on mouse hover"
+   },
+   "tabs_menu_separator": {
+      "message": "menu separator"
+   },
+   "toolbar_background": {
+      "message": "Toolbar background color"
+   },
+   "toolbar_border_bottom": {
+      "message": "Toolbar borders color"
+   },
+   "toolbar_shelf_background": {
+      "message": "Toolbar's shelf background color"
+   }
+}

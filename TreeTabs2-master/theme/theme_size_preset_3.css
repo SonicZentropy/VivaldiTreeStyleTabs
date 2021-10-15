@@ -1,0 +1,41 @@
+body {
+	
+	--scrollbar_height: 4px;
+	--scrollbar_width: 16px;
+	
+	--pin_width: 26px;
+	--pin_height: 26px;
+
+	--tab_height: 22px;
+	--title_font_size: 14px;
+
+	--tab_title_text_padding_left: 25px;
+	--tab_title_text_padding_exp_left: 37px;
+	--tab_title_text_padding_right_with_close_button: 24px;
+
+	--favicon_width: 16px;
+	--favicon_height: 16px;
+	--favicon_left: 3px;
+
+	--expand_height: 21px;
+	--expand_width: 38px;
+
+	--expand_mask_top: 8px;
+	--expand_mask_left: 25px;
+	--expand_mask_height: 7px;
+	--expand_mask_width: 7px;
+
+	--children_padding_left: 5px;
+	--close_top: 3px;
+	--close_right: 3px;
+	--close_height: 14px;
+	--close_width: 14px;
+	
+	--tab_mediaicon_height: 11px;
+	--tab_mediaicon_width: 11px;
+
+	--counter_size: 8px;
+	--counter_top: 1px;
+	--counter_left: 26px;
+	--counter_number: -4px;
+}

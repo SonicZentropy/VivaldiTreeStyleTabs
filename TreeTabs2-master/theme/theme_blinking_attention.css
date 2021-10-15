@@ -1,0 +1,9 @@
+@keyframes attention_blinking {
+	0% {background-color:  var(--tab_background); border:1px solid var(--tab_border);}
+	50% {background-color: var(--attention_background); border:1px solid var(--attention_border);}
+	80% {background-color: var(--tab_background); border:1px solid var(--tab_border);}
+	100% {background-color: var(--tab_background); border:1px solid var(--tab_border);}
+}
+.pin.attention>.tab_header {
+	animation: attention_blinking 2.5s infinite;
+}

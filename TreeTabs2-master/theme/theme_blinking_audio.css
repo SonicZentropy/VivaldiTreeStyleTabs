@@ -1,0 +1,12 @@
+@keyframes audio_blinking {
+	0% {opacity:  0}
+	30% {opacity:  1}
+	70% {opacity:  1}
+	100% {opacity:  0}
+}
+.audible>.tab_header>.tab_mediaicon {
+	animation: audio_blinking 1.5s infinite;
+}
+.muted>.tab_header>.tab_mediaicon {
+	animation: audio_blinking 1.5s infinite;
+}

@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style id="pagestyle">
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+            padding: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            font-family: Arial;
+            -webkit-user-select: none;
+            -webkit-user-drag: none;
+        }
+    </style>
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_size_preset_0.css" id="sizes_preset_0" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_size_preset_1.css" id="sizes_preset_1" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_size_preset_2.css" id="sizes_preset_2" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_size_preset_3.css" id="sizes_preset_3" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_size_preset_4.css" id="sizes_preset_4" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_size_preset_5.css" id="sizes_preset_5" />
+
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_tabs_margin_0.css" id="tabs_margin_0" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_tabs_margin_1.css" id="tabs_margin_1" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_tabs_margin_2.css" id="tabs_margin_2" />
+
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_colors.css" id="theme_colors" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme.css" id="theme" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_manager.css" id="manager" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_blinking_attention.css" id="blinking_pins" />
+    <link type="text/css" rel="stylesheet" media="all" href="theme/theme_blinking_audio.css" id="blinking_audio" />
+</head>
+
+<body id="body" class="sidebar_body">
+
+    <div id="DragImage" style="display: none; width:0px; height:0px;"></div>
+
+    <div class="toolbar" id="toolbar"></div>
+
+    <div id="toolbar_groups">
+        <div class="scroll_group" id="scroll_group_up"></div>
+        <div class="group_list" id="group_list"></div>
+        <div class="scroll_group" id="scroll_group_down"></div>
+    </div>
+
+
+    <div class="pin_list" id="pin_list"></div>
+    <div id="groups"></div>
+
+    <input type="color" id="color_picker" style="position:absolute; left:-1000px; top:-1000px; width:1px; height:1px; overflow:hidden;">
+
+    <ul class="edit_dialog" id="group_edit">
+        <input class="edit_dialog_edit_name text_input" id="group_edit_name" type="text"></input>
+        <div class="group_edit_color" id="group_edit_font"></div>
+        <br>
+        <div class="edit_dialog_discard" id="group_edit_discard"><span class="edit_dialog_button" id="group_edit_button_cancel"></span></div>
+        <div class="edit_dialog_confirm" id="group_edit_confirm"><span class="edit_dialog_button" id="group_edit_button_confirm"></span></div>
+    </ul>
+
+    <ul class="edit_dialog" id="folder_edit">
+        <input class="edit_dialog_edit_name text_input" id="folder_edit_name" type="text"></input>
+        <br>
+        <div class="edit_dialog_discard" id="folder_edit_discard"><span class="edit_dialog_button" id="folder_edit_button_cancel"></span></div>
+        <div class="edit_dialog_confirm" id="folder_edit_confirm"><span class="edit_dialog_button" id="folder_edit_button_confirm"></span></div>
+    </ul>
+
+    <ul class="edit_dialog" id="manager_window">
+        <div id="manager_window_header">
+            <div id="manager_window_header_title"></div>
+            <div id="manager_window_close">
+                <div class="close_img"></div>
+            </div>
+        </div>
+
+        <div id="manager_window_toolbar">
+            <div class="manager_window_toolbar_button mw_on" id="manager_window_groups_button">
+                <div class="manager_window_toolbar_button_img"></div>
+            </div>
+            <div class="manager_window_toolbar_button" id="manager_window_sessions_button">
+                <div class="manager_window_toolbar_button_img"></div>
+            </div>
+            <div class="manager_window_toolbar_button" id="manager_window_autosave_button">
+                <div class="manager_window_toolbar_button_img"></div>
+            </div>
+        </div>
+
+
+        <div class="manager_window_panel mw_pan_on" id="manager_window_groups_panel">
+            <div class="manager_window_panel_buttons">
+                <div class="edit_dialog_confirm" id="manager_window_button_import_group"><span class="edit_dialog_button" id="manager_window_button_label_import_group"></span></div>
+                <div class="edit_dialog_confirm" id="manager_window_button_hibernate_group"><span class="edit_dialog_button" id="manager_window_button_label_hibernate_group"></span></div>
+            </div>
+            <div class="manager_window_list" id="manager_window_groups_list"></div>
+        </div>
+
+        <div class="manager_window_panel" id="manager_window_sessions_panel">
+            <div class="manager_window_panel_buttons">
+                <div class="edit_dialog_confirm" id="manager_window_button_import_session"><span class="edit_dialog_button" id="manager_window_button_label_import_session"></span></div>
+                <div class="edit_dialog_confirm" id="manager_window_button_save_current_session"><span class="edit_dialog_button" id="manager_window_button_label_save_current_session"></span></div>
+            </div>
+            <div class="manager_window_list" id="manager_window_sessions_list"></div>
+        </div>
+
+        <div class="manager_window_panel" id="manager_window_autosave_panel">
+            <div class="manager_window_panel_buttons">
+                <span class="manager_window_label" id="manager_window_autosessions_maximum_saves_label"></span>
+                <br>
+                <input class="input_number" type="number" min="0" max="99999" step="1" id="manager_window_autosessions_maximum_saves"></input>
+                <br>
+                <span class="manager_window_label" id="manager_window_autosessions_save_timer_label"></span>
+                <br>
+                <input class="input_number" type="number" min="0" max="99999" step="1" id="manager_window_autosessions_save_timer"></input>
+            </div>
+            <div class="manager_window_list" id="manager_window_autosessions_list"></div>
+        </div>
+
+    </ul>
+
+
+    <div id="status_bar">
+        <div id="new_tab_floating_button_img"></div>
+        <div id="status_message"></div>
+        <div id="busy_spinner"></div>
+    </div>
+    <ul class="menu" id="main_menu"></ul>
+
+
+    <!--
+
+		<ul class="menu" id="move_to_group_menu">
+			<li data-action="move_to_new_group" class="menu_item" id="menu_detach_tab_to_new_group"></li>
+			<div class="separator"></div>
+		</ul>
+		<ul class="menu" id="groups_menu">
+			<li data-action="group_bookmark" class="groups_menu_item" id="menu_bookmark_group"></li>
+			<div class="separator"></div>
+			<li data-action="group_mute" class="groups_menu_item" id="groups_menu_mute"></li>
+			<li data-action="group_unmute" class="groups_menu_item" id="groups_menu_unmute"></li>
+			<li data-action="group_mute_other" class="groups_menu_item" id="groups_menu_mute_other"></li>
+			<li data-action="group_unmute_other" class="groups_menu_item" id="groups_menu_unmute_other"></li>
+			<div class="separator"></div>
+			<li data-action="group_close" class="groups_menu_item" id="groups_menu_close"></li>
+			<li data-action="group_close_with_tabs" class="groups_menu_item" id="groups_menu_close_with_tabs"></li>
+			<li data-action="group_suspend" class="groups_menu_item" id="groups_menu_suspend"></li>
+			<div class="separator"></div>
+		</ul>
+
+		<div id="DATA" style="display: none; width:0px; height:0px;">
+		</div>
+-->
+
+
+    <script type="text/javascript" src="./global.js"></script>
+    <script type="text/javascript" src="./scripts/utils.js"></script>
+    <script type="text/javascript" src="./scripts/dom.js"></script>
+    <script type="text/javascript" src="./scripts/tabs.js"></script>
+    <script type="text/javascript" src="./scripts/folders.js"></script>
+    <script type="text/javascript" src="./scripts/groups.js"></script>
+    <script type="text/javascript" src="./scripts/menu.js"></script>
+    <script type="text/javascript" src="./scripts/manager.js"></script>
+    <script type="text/javascript" src="./scripts/toolbar.js"></script>
+    <script type="text/javascript" src="./scripts/theme.js"></script>
+    <script type="text/javascript" src="./scripts/file.js"></script>
+    <script type="text/javascript" src="./scripts/preferences.js"></script>
+    <script type="text/javascript" src="./scripts/bookmark.js"></script>
+    <script type="text/javascript" src="./sidebar.js"></script>
+
+</body>
+
+</html>
